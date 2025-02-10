@@ -197,6 +197,192 @@
 				)
 			)
 		)
+		(symbol "L_00001_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "L_00001"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -31.75 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10uH Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Desc" "10uH"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "MFNs" ""
+				(at -34.29 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PNs" ""
+				(at -35.56 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_0402_* *Coil_0402_* Inductor_0402_* L_0402_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_00001_1_0_1"
+				(arc
+					(start 0 -2.032)
+					(mid 0.5058 -1.524)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 0.508)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 1.524)
+					(end 0 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_00001_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "mic_patch_parts:CLK_0001"
 			(pin_names
 				(offset 1.016) hide)
@@ -882,6 +1068,349 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mic_patch_parts:C_00004"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_00004"
+				(at 2.54 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -25.4 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.2nF"
+				(at 5.588 -2.286 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Desc" ""
+				(at 2.54 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "MPNs" ""
+				(at -21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PNs" ""
+				(at -20.32 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_0402_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_00004_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_00004_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mic_patch_parts:L_00001"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "L_00001"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -31.75 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10uH Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Desc" "10uH"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "MFNs" ""
+				(at -34.29 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PNs" ""
+				(at -35.56 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_0402_* *Coil_0402_* Inductor_0402_* L_0402_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_00001_0_1"
+				(arc
+					(start 0 -2.032)
+					(mid 0.5058 -1.524)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 0.508)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 1.524)
+					(end 0 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_00001_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.508)
 					(name "~"
 						(effects
 							(font
@@ -3101,10 +3630,22 @@
 		(uuid "61cb29ae-3dad-457d-a9dd-c508a60efe4d")
 	)
 	(junction
+		(at 52.07 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "644c7ace-8b27-4acc-a22c-fb9b8960b752")
+	)
+	(junction
 		(at 109.22 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64b76ab4-4650-4079-bb31-083ceef9da0f")
+	)
+	(junction
+		(at 66.04 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f6c3f72-1b68-48ac-aa35-04e040de8f75")
 	)
 	(junction
 		(at 72.39 53.34)
@@ -3125,16 +3666,54 @@
 		(uuid "bb9a376a-97bb-4b22-b023-88ce770702d2")
 	)
 	(junction
+		(at 66.04 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca790041-d804-4695-b494-1adba1026a69")
+	)
+	(junction
 		(at 146.05 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1552c50-a910-485f-a003-10c30e1173d7")
 	)
 	(junction
+		(at 66.04 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc13d27e-bff5-4980-9c30-f85138671f32")
+	)
+	(junction
 		(at 118.11 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7b54702-2020-4bd8-b4de-3ec4b4e45e30")
+	)
+	(no_connect
+		(at 144.78 180.34)
+		(uuid "3602d491-28d7-4623-8200-a16c0ce3f93f")
+	)
+	(no_connect
+		(at 114.3 40.64)
+		(uuid "4f37106a-9eb8-48fb-8abb-095c067d201a")
+	)
+	(no_connect
+		(at 78.74 175.26)
+		(uuid "769d16b3-1fe5-41b2-94a6-f01f2dce730d")
+	)
+	(no_connect
+		(at 144.78 177.8)
+		(uuid "e2721753-e771-47f7-a2aa-a0667b18d065")
+	)
+	(wire
+		(pts
+			(xy 66.04 111.76) (xy 78.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002f010e-4821-417d-aca4-291f910f626b")
 	)
 	(wire
 		(pts
@@ -3158,6 +3737,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 109.22) (xy 78.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2bb4ba-c675-48d0-b29c-0869c7eea2cc")
+	)
+	(wire
+		(pts
 			(xy 57.15 53.34) (xy 60.96 53.34)
 		)
 		(stroke
@@ -3165,6 +3754,16 @@
 			(type default)
 		)
 		(uuid "0d848c70-4ab2-4fd4-969a-cedd82b19e28")
+	)
+	(wire
+		(pts
+			(xy 66.04 129.54) (xy 78.74 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ddd9575-0c41-4d78-9a44-b1be1cfd15cd")
 	)
 	(wire
 		(pts
@@ -3208,6 +3807,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 109.22) (xy 52.07 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2095f491-32f8-4e02-9be8-4bf82bfa4de7")
+	)
+	(wire
+		(pts
 			(xy 118.11 38.1) (xy 118.11 39.37)
 		)
 		(stroke
@@ -3225,6 +3834,16 @@
 			(type default)
 		)
 		(uuid "229393a6-b19f-48dd-b1e6-bada1991390d")
+	)
+	(wire
+		(pts
+			(xy 66.04 137.16) (xy 66.04 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8fd14a-2171-40af-88e5-c61ed26511b8")
 	)
 	(wire
 		(pts
@@ -3248,6 +3867,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 139.7) (xy 78.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf15150-0ba8-4bca-825a-29731a220107")
+	)
+	(wire
+		(pts
+			(xy 66.04 139.7) (xy 66.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c32e62e-3c30-40c8-9d53-13069a7d74c6")
+	)
+	(wire
+		(pts
 			(xy 118.11 25.4) (xy 118.11 26.67)
 		)
 		(stroke
@@ -3255,6 +3894,16 @@
 			(type default)
 		)
 		(uuid "3d7702da-a3f9-4db0-8a57-84bbb8fb1469")
+	)
+	(wire
+		(pts
+			(xy 52.07 109.22) (xy 66.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c54f2b-748c-4385-8b8d-f0361426b0a5")
 	)
 	(wire
 		(pts
@@ -3278,6 +3927,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 132.08) (xy 66.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3512d8-5c30-47a3-85c5-f88612520b52")
+	)
+	(wire
+		(pts
 			(xy 109.22 20.32) (xy 109.22 33.02)
 		)
 		(stroke
@@ -3285,6 +3944,16 @@
 			(type default)
 		)
 		(uuid "6050897e-7342-4275-8e5b-3d79cc63d629")
+	)
+	(wire
+		(pts
+			(xy 52.07 102.87) (xy 52.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a9333e-9de0-43c8-8f34-9f4a648a7fc1")
 	)
 	(wire
 		(pts
@@ -3325,6 +3994,16 @@
 			(type default)
 		)
 		(uuid "6bb286ad-69b4-400f-bc1d-37e356127eda")
+	)
+	(wire
+		(pts
+			(xy 78.74 93.98) (xy 78.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71597167-a6cc-4a89-8eae-5d58be60d7ed")
 	)
 	(wire
 		(pts
@@ -3378,6 +4057,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 93.98) (xy 78.74 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922b9780-2f20-4aed-98bf-258c954c34d0")
+	)
+	(wire
+		(pts
 			(xy 132.08 25.4) (xy 132.08 26.67)
 		)
 		(stroke
@@ -3405,6 +4094,16 @@
 			(type default)
 		)
 		(uuid "a9f35ebd-153a-472f-805c-2ef37652f0ce")
+	)
+	(wire
+		(pts
+			(xy 52.07 93.98) (xy 52.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2190b9-b07a-4c76-9e7d-402db5a56bc6")
 	)
 	(wire
 		(pts
@@ -3608,6 +4307,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 109.22) (xy 66.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0ce3ab-5b10-483c-8acb-8ee9c621c231")
+	)
+	(wire
+		(pts
 			(xy 132.08 20.32) (xy 146.05 20.32)
 		)
 		(stroke
@@ -3616,9 +4325,19 @@
 		)
 		(uuid "fcf54bb6-01d8-474c-9d4e-a7b78d64f685")
 	)
+	(text "figure out the DC/DC power configuration for these two pins:"
+		(exclude_from_sim no)
+		(at 42.418 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51a7ad21-26db-4647-9257-df640635321f")
+	)
 	(text "Should be grounded probably..."
 		(exclude_from_sim no)
-		(at 33.02 170.18 0)
+		(at 32.512 172.974 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4230,6 +4949,104 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "L_00001_1")
+		(lib_id "mic_patch_parts:L_00001")
+		(at 52.07 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19c19f5b-20e4-4507-b7f8-1641c437f46a")
+		(property "Reference" "L1"
+			(at 53.34 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L_00001"
+			(at 53.34 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uH Inductor"
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" "10uH"
+			(at 53.34 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MFNs" ""
+			(at 17.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PNs" ""
+			(at 16.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d0e6129-9aa0-4fa8-8485-894dca89798a")
+		)
+		(pin "2"
+			(uuid "36ac9db0-77f1-4707-bc96-9ce94421ca88")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -4912,6 +5729,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 66.04 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f2ddef2-14a4-4a88-aa6a-008c4511e591")
+		(property "Reference" "#PWR021"
+			(at 66.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7990b29f-c0d7-4796-80a8-a434adedee84")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mic_patch_parts:C_00001")
 		(at 118.11 35.56 0)
 		(unit 1)
@@ -5106,6 +5988,71 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ec34952-954f-4fb8-bef2-9f3a8dbe738c")
+		(property "Reference" "#PWR020"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdf8118f-88a9-40a8-93cb-aa4783d09b0d")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5436,7 +6383,7 @@
 			)
 		)
 		(property "Description" "~8nF (Coud Use Internal)"
-			(at 91.948 88.392 0)
+			(at 92.456 88.392 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5747,6 +6694,103 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mic_patch_parts:L_00001")
+		(at 66.04 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d5417ce-6f16-4e1c-a0cd-c9fc08d68150")
+		(property "Reference" "L2"
+			(at 67.31 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L_00001"
+			(at 67.31 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uH Inductor"
+			(at 66.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" "10uH"
+			(at 67.31 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MFNs" ""
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PNs" ""
+			(at 30.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90a2cc7b-1f88-4832-9724-7265dd6cf806")
+		)
+		(pin "2"
+			(uuid "61351178-d487-4244-9855-52ebc89ccf80")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -6577,6 +7621,106 @@
 		)
 	)
 	(symbol
+		(lib_id "mic_patch_parts:C_00004")
+		(at 66.04 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4b1eee7-b201-40f3-a0ff-8c2a98d532c8")
+		(property "Reference" "C15"
+			(at 68.58 111.76 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_00004"
+			(at 68.58 114.3 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2nF"
+			(at 71.628 116.586 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" ""
+			(at 68.58 116.84 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPNs" ""
+			(at 44.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PNs" ""
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f51c4ab6-9770-430f-9027-8c68d30063f6")
+		)
+		(pin "1"
+			(uuid "46416759-7553-429d-aa9b-48fa3fd77cbb")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 160.02 26.67 0)
 		(unit 1)
@@ -6636,6 +7780,271 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mic_patch_parts:C_00003")
+		(at 66.04 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e37c8510-8bd9-4f01-88fa-fdc1f0ad1aaa")
+		(property "Reference" "C16"
+			(at 68.58 142.24 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_00003"
+			(at 68.58 144.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.0uF"
+			(at 71.628 147.066 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" ""
+			(at 68.58 147.32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPNs" ""
+			(at 44.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PNs" ""
+			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78375f4b-f5a6-4de0-8146-430e0ce043bb")
+		)
+		(pin "2"
+			(uuid "4fb5fa16-2ecb-4ad6-9c2b-9ff83a791738")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4c65afa-ef77-437c-9297-2a2a1bc6a708")
+		(property "Reference" "#PWR019"
+			(at 52.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60ffb8eb-e46f-4703-a03d-47d762a09aee")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mic_patch_parts:C_00003")
+		(at 52.07 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e837d9d2-2df3-4011-ad15-44913bf0a13a")
+		(property "Reference" "C14"
+			(at 54.61 110.49 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_00003"
+			(at 54.61 113.03 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.0uF"
+			(at 57.658 115.316 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" ""
+			(at 54.61 115.57 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPNs" ""
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PNs" ""
+			(at 31.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8061583e-9519-4340-9cbf-37d8c9e9e448")
+		)
+		(pin "2"
+			(uuid "6cf91197-1522-4234-8524-b8b3740a54f8")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "C14")
 					(unit 1)
 				)
 			)

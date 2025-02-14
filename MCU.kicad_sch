@@ -614,6 +614,237 @@
 				)
 			)
 		)
+		(symbol "mic_patch_parts:CLK_0002"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CLK_0002"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -52.07 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "32.768kHz Four pin crystal, Check GND PinS"
+				(at 1.27 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPNs" ""
+				(at -55.88 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PNs" ""
+				(at -49.53 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Desc" ""
+				(at 1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "32.768kHz 3225 quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CLK_0002_0_1"
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CLK_0002_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "mic_patch_parts:C_00001"
 			(pin_numbers hide)
 			(pin_names
@@ -3618,6 +3849,12 @@
 		(uuid "4a0b80ea-9144-4a83-8495-ff4741da025d")
 	)
 	(junction
+		(at 166.37 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52798ca0-957b-4362-954a-12d70b2d6eab")
+	)
+	(junction
 		(at 109.22 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3767,13 +4004,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 48.26) (xy 180.34 48.26)
+			(xy 171.45 45.72) (xy 171.45 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1613b998-b0cf-4bd0-81a3-34cee038bd20")
+		(uuid "0ec5be68-d589-4340-bc03-72d3e4f093e6")
 	)
 	(wire
 		(pts
@@ -3867,6 +4104,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 53.34) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39232e43-31ba-4eac-ab20-9276baa075eb")
+	)
+	(wire
+		(pts
 			(xy 59.69 81.28) (xy 62.23 81.28)
 		)
 		(stroke
@@ -3917,6 +4164,26 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 50.8) (xy 163.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e633de1-c3fe-47cf-9368-bf09b2f6e314")
+	)
+	(wire
+		(pts
+			(xy 149.86 45.72) (xy 171.45 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e727315-37d5-4c31-ae5d-4abd56f943f0")
+	)
+	(wire
+		(pts
 			(xy 66.04 83.82) (xy 71.12 83.82)
 		)
 		(stroke
@@ -3924,6 +4191,16 @@
 			(type default)
 		)
 		(uuid "53f46dc9-7134-4459-8081-75a8f7de5fb4")
+	)
+	(wire
+		(pts
+			(xy 161.29 54.61) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576c81dd-711c-48be-80ee-1db2f5b52c8a")
 	)
 	(wire
 		(pts
@@ -4017,6 +4294,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 48.26) (xy 161.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8570d3-9dcc-4ad7-85b3-f8e70097d9cc")
+	)
+	(wire
+		(pts
+			(xy 168.91 50.8) (xy 171.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8453f0-f6f3-44a2-a495-02473e82ac62")
+	)
+	(wire
+		(pts
 			(xy 48.26 181.61) (xy 48.26 186.69)
 		)
 		(stroke
@@ -4024,16 +4321,6 @@
 			(type default)
 		)
 		(uuid "7badd089-b1bb-4d86-80e6-75ad9239aa15")
-	)
-	(wire
-		(pts
-			(xy 144.78 50.8) (xy 180.34 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80d7cc16-4e40-459c-8af6-608b41e08287")
 	)
 	(wire
 		(pts
@@ -4054,6 +4341,16 @@
 			(type default)
 		)
 		(uuid "8c73082a-2a58-4e7a-bd4f-ccf8324fd8cf")
+	)
+	(wire
+		(pts
+			(xy 161.29 48.26) (xy 166.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3e18ea-4137-4473-a648-66c94fc20b49")
 	)
 	(wire
 		(pts
@@ -4147,6 +4444,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 48.26) (xy 149.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87fcdb5-659e-4537-bc85-0b17db158cf5")
+	)
+	(wire
+		(pts
 			(xy 109.22 40.64) (xy 109.22 36.83)
 		)
 		(stroke
@@ -4154,6 +4461,16 @@
 			(type default)
 		)
 		(uuid "b9e78abd-b88e-4ad7-a461-d77d73e59c58")
+	)
+	(wire
+		(pts
+			(xy 149.86 45.72) (xy 149.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb008198-0bf2-44d9-be45-f7b678837f12")
 	)
 	(wire
 		(pts
@@ -4345,16 +4662,6 @@
 		)
 		(uuid "fcf54bb6-01d8-474c-9d4e-a7b78d64f685")
 	)
-	(text "Extra CLK here"
-		(exclude_from_sim no)
-		(at 191.516 49.276 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "06866238-9f5f-4471-94be-20dbc62e286f")
-	)
 	(text "Connect PAD to RF Ground Plane"
 		(exclude_from_sim no)
 		(at 93.726 189.992 0)
@@ -4384,6 +4691,16 @@
 			)
 		)
 		(uuid "522736ac-7f59-4c6c-a02d-953c3a1eb1d2")
+	)
+	(text "Need to double check this...."
+		(exclude_from_sim no)
+		(at 171.704 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b79fb26-1c6a-490a-99c8-409d0130ad1e")
 	)
 	(text "Should be grounded probably..."
 		(exclude_from_sim no)
@@ -4540,6 +4857,105 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mic_patch_parts:CLK_0002")
+		(at 166.37 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "091368df-24da-41b7-8105-c9961c0d9842")
+		(property "Reference" "Y2"
+			(at 173.99 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLK_0002"
+			(at 177.292 46.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32.768kHz Four pin crystal, Check GND PinS"
+			(at 194.31 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPNs" ""
+			(at 167.64 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PNs" ""
+			(at 172.72 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" ""
+			(at 170.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1dc244b5-3c85-476a-afcf-8252744278cb")
+		)
+		(pin "4"
+			(uuid "9226e4e3-105e-4892-b5b3-3ede219d28af")
+		)
+		(pin "3"
+			(uuid "acab7673-0209-4927-aa51-611096dfc262")
+		)
+		(pin "2"
+			(uuid "7631a23a-4ad2-4295-bdfd-c3920c608fb3")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -4770,6 +5186,71 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1011601b-e001-4c5f-8d5b-9d991c4df233")
+		(property "Reference" "#PWR027"
+			(at 166.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a508ae67-0dfd-432a-826c-b83554cfdfdb")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

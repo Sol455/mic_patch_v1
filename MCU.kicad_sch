@@ -3282,7 +3282,7 @@
 					(justify left)
 				)
 			)
-			(property "MPNs" "0402WGF1001TCE"
+			(property "MPNs" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3291,7 +3291,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PNs" "C11702"
+			(property "LCSC PNs" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3767,6 +3767,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 48.26) (xy 180.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1613b998-b0cf-4bd0-81a3-34cee038bd20")
+	)
+	(wire
+		(pts
 			(xy 146.05 25.4) (xy 146.05 26.67)
 		)
 		(stroke
@@ -4014,6 +4024,16 @@
 			(type default)
 		)
 		(uuid "7badd089-b1bb-4d86-80e6-75ad9239aa15")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 180.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d7cc16-4e40-459c-8af6-608b41e08287")
 	)
 	(wire
 		(pts
@@ -4325,6 +4345,26 @@
 		)
 		(uuid "fcf54bb6-01d8-474c-9d4e-a7b78d64f685")
 	)
+	(text "Extra CLK here"
+		(exclude_from_sim no)
+		(at 191.516 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06866238-9f5f-4471-94be-20dbc62e286f")
+	)
+	(text "Connect PAD to RF Ground Plane"
+		(exclude_from_sim no)
+		(at 93.726 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09b36e72-0052-473b-aa50-87a0100518aa")
+	)
 	(text "figure out the DC/DC power configuration for these two pins:"
 		(exclude_from_sim no)
 		(at 42.418 126.238 0)
@@ -4334,6 +4374,16 @@
 			)
 		)
 		(uuid "51a7ad21-26db-4647-9257-df640635321f")
+	)
+	(text "Check pins, check crystal type"
+		(exclude_from_sim no)
+		(at 59.436 69.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "522736ac-7f59-4c6c-a02d-953c3a1eb1d2")
 	)
 	(text "Should be grounded probably..."
 		(exclude_from_sim no)
@@ -4347,7 +4397,7 @@
 	)
 	(text "Debug Voltage level Considerations!"
 		(exclude_from_sim no)
-		(at 45.72 34.544 0)
+		(at 45.466 34.798 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4462,7 +4512,7 @@
 				(justify right)
 			)
 		)
-		(property "MPNs" "0402WGF1001TCE"
+		(property "MPNs" ""
 			(at 48.26 179.07 0)
 			(effects
 				(font
@@ -4471,7 +4521,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" "C11702"
+		(property "LCSC PNs" ""
 			(at 48.26 179.07 0)
 			(effects
 				(font

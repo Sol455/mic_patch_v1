@@ -4254,6 +4254,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 157.48) (xy 78.74 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627d14f4-375b-4f03-aa59-478aa73753e5")
+	)
+	(wire
+		(pts
 			(xy 52.07 106.68) (xy 52.07 109.22)
 		)
 		(stroke
@@ -4712,7 +4722,7 @@
 		)
 		(uuid "fec12ad9-a80f-4d96-b972-4046751f1f76")
 	)
-	(text_box "Check what DC/DC is --> do we enable or strip away?\nNeed to calc caps for both clks or use internal capacitors...\nNeed to sort DBG voltage"
+	(text_box "Check what DC/DC is --> do we enable or strip away?\nNeed to calc caps for both clks or use internal capacitors...\nNeed to sort DBG voltage\nOperating in Single Supply mode"
 		(exclude_from_sim no)
 		(at 214.63 15.24 0)
 		(size 67.31 25.4)
@@ -4773,7 +4783,7 @@
 	)
 	(text "Audio IN"
 		(exclude_from_sim no)
-		(at 163.576 81.534 0)
+		(at 169.418 84.074 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4855,6 +4865,28 @@
 			)
 		)
 	)
+	(global_label "RF_ANT"
+		(shape input)
+		(at 74.93 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43113e8e-39be-4be0-aa22-5a4f99cbec4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.2319 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIN"
 		(shape input)
 		(at 149.86 81.28 0)
@@ -4912,28 +4944,6 @@
 		(uuid "896de692-525f-4388-b804-8b7ff0d203a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 165.6662 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCLK"
-		(shape input)
-		(at 149.86 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cbb7827f-0aae-4243-b0e1-2ce56df0d71f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.8647 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

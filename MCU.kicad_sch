@@ -3984,6 +3984,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 33.02) (xy 46.99 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d285a9e-f518-4480-917a-44573dce0ed5")
+	)
+	(wire
+		(pts
 			(xy 57.15 53.34) (xy 60.96 53.34)
 		)
 		(stroke
@@ -4011,6 +4021,16 @@
 			(type default)
 		)
 		(uuid "0ec5be68-d589-4340-bc03-72d3e4f093e6")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f6f922-01ed-4372-87b7-527938b75768")
 	)
 	(wire
 		(pts
@@ -4091,6 +4111,16 @@
 			(type default)
 		)
 		(uuid "2c8fd14a-2171-40af-88e5-c61ed26511b8")
+	)
+	(wire
+		(pts
+			(xy 148.59 76.2) (xy 144.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322fb3fa-5afe-4ad8-9ea4-17cf52d9cc9d")
 	)
 	(wire
 		(pts
@@ -4234,7 +4264,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 102.87) (xy 52.07 109.22)
+			(xy 52.07 106.68) (xy 52.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4281,16 +4311,6 @@
 			(type default)
 		)
 		(uuid "6bb286ad-69b4-400f-bc1d-37e356127eda")
-	)
-	(wire
-		(pts
-			(xy 78.74 93.98) (xy 78.74 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71597167-a6cc-4a89-8eae-5d58be60d7ed")
 	)
 	(wire
 		(pts
@@ -4374,7 +4394,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 93.98) (xy 78.74 93.98)
+			(xy 52.07 99.06) (xy 78.74 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4414,13 +4434,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 93.98) (xy 52.07 97.79)
+			(xy 52.07 99.06) (xy 52.07 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad2190b9-b07a-4c76-9e7d-402db5a56bc6")
+	)
+	(wire
+		(pts
+			(xy 148.59 72.39) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0416a9b-3a73-4acf-a1c9-2623dbd8194b")
 	)
 	(wire
 		(pts
@@ -4484,7 +4514,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 76.2) (xy 149.86 76.2)
+			(xy 148.59 72.39) (xy 149.86 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4624,6 +4654,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 83.82) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7dd179d-8fc3-4624-85bc-804d526aee23")
+	)
+	(wire
+		(pts
 			(xy 146.05 20.32) (xy 160.02 20.32)
 		)
 		(stroke
@@ -4641,6 +4681,16 @@
 			(type default)
 		)
 		(uuid "f4d26b10-ceb4-4189-bef3-e361ea79736f")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8803141-415c-4047-b4c4-d107e9005840")
 	)
 	(wire
 		(pts
@@ -4662,6 +4712,35 @@
 		)
 		(uuid "fcf54bb6-01d8-474c-9d4e-a7b78d64f685")
 	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec12ad9-a80f-4d96-b972-4046751f1f76")
+	)
+	(text_box "Check what DC/DC is --> do we enable or strip away?\nNeed to calc caps for both clks or use internal capacitors...\nNeed to sort DBG voltage"
+		(exclude_from_sim no)
+		(at 214.63 15.24 0)
+		(size 67.31 25.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "adbe16a5-137c-469d-9d11-0cb6247a1a9e")
+	)
 	(text "Connect PAD to RF Ground Plane"
 		(exclude_from_sim no)
 		(at 93.726 189.992 0)
@@ -4674,7 +4753,7 @@
 	)
 	(text "figure out the DC/DC power configuration for these two pins:"
 		(exclude_from_sim no)
-		(at 42.418 126.238 0)
+		(at 45.72 126.746 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4692,15 +4771,25 @@
 		)
 		(uuid "522736ac-7f59-4c6c-a02d-953c3a1eb1d2")
 	)
-	(text "Need to double check this...."
+	(text "Check slow settings --> note no Caps here need to do some maths"
 		(exclude_from_sim no)
-		(at 171.704 76.2 0)
+		(at 207.01 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "7b79fb26-1c6a-490a-99c8-409d0130ad1e")
+		(uuid "554a3475-cc75-4b08-88af-b3530b8184a5")
+	)
+	(text "Audio IN"
+		(exclude_from_sim no)
+		(at 163.576 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae0fb388-0671-4913-abe1-34128bf60c3f")
 	)
 	(text "Should be grounded probably..."
 		(exclude_from_sim no)
@@ -4712,9 +4801,19 @@
 		)
 		(uuid "c08931eb-54a7-4e67-a6c3-e931d278ab47")
 	)
+	(text "Add two buttons"
+		(exclude_from_sim no)
+		(at 160.274 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6c7ce99-55be-4d6d-ae4d-310d8b65a46f")
+	)
 	(text "Debug Voltage level Considerations!"
 		(exclude_from_sim no)
-		(at 45.466 34.798 0)
+		(at 48.26 21.082 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4744,9 +4843,53 @@
 			)
 		)
 	)
+	(global_label "BCLK"
+		(shape input)
+		(at 149.86 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d6a4e73-1584-426a-a6ca-e58c20cc2ee3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.6833 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIN"
+		(shape input)
+		(at 149.86 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "654be1a4-cb82-4671-817e-1fcfb9ebdd30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.0505 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWO"
 		(shape input)
-		(at 149.86 76.2 0)
+		(at 149.86 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4756,7 +4899,51 @@
 		)
 		(uuid "773bc5a9-6dd2-458b-bb9c-8a35d60f3b38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.8366 76.2 0)
+			(at 156.8366 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FSYNC_LRCLK"
+		(shape input)
+		(at 149.86 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "896de692-525f-4388-b804-8b7ff0d203a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.6662 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCLK"
+		(shape input)
+		(at 149.86 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbb7827f-0aae-4243-b0e1-2ce56df0d71f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.8647 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5675,7 @@
 	(symbol
 		(lib_name "L_00001_1")
 		(lib_id "mic_patch_parts:L_00001")
-		(at 52.07 100.33 0)
+		(at 52.07 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5497,7 +5684,7 @@
 		(fields_autoplaced yes)
 		(uuid "19c19f5b-20e4-4507-b7f8-1641c437f46a")
 		(property "Reference" "L1"
-			(at 53.34 97.7899 0)
+			(at 53.34 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5693,7 @@
 			)
 		)
 		(property "Value" "L_00001"
-			(at 53.34 100.3299 0)
+			(at 53.34 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 95.25 0)
+			(at 20.32 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5711,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 100.33 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5720,7 @@
 			)
 		)
 		(property "Description" "10uH Inductor"
-			(at 52.07 100.33 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5729,7 @@
 			)
 		)
 		(property "Desc" "10uH"
-			(at 53.34 102.8699 0)
+			(at 53.34 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5738,7 @@
 			)
 		)
 		(property "MFNs" ""
-			(at 17.78 97.79 0)
+			(at 17.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5747,7 @@
 			)
 		)
 		(property "LCSC PNs" ""
-			(at 16.51 101.6 0)
+			(at 16.51 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,6 +7515,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 46.99 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f3ce0d4-57ec-4763-8efb-089e991c89fd")
+		(property "Reference" "#PWR036"
+			(at 46.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8 VDD_NRF"
+			(at 46.736 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 46.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "484a4dd8-f065-4acf-867f-065bc274365f")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mic_patch_parts:C_00001")
 		(at 132.08 35.56 0)
 		(unit 1)
@@ -7767,7 +8019,7 @@
 		(dnp no)
 		(uuid "ba0a6510-c33d-46cb-ac47-3c6eca4d6d69")
 		(property "Reference" "Y1"
-			(at 14.478 76.708 90)
+			(at 73.406 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +8027,7 @@
 			)
 		)
 		(property "Value" "CLK_0001"
-			(at 18.034 78.74 90)
+			(at 76.962 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7801,7 +8053,7 @@
 			)
 		)
 		(property "Description" "32MHz Four pin crystal, Check GND Pins"
-			(at 33.274 81.28 90)
+			(at 38.862 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2375,7 +2375,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 92.71) (xy 34.29 124.46)
+			(xy 34.29 92.71) (xy 34.29 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2415,7 +2415,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 121.92) (xy 21.59 124.46)
+			(xy 21.59 121.92) (xy 21.59 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2835,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 124.46) (xy 34.29 124.46)
+			(xy 21.59 123.19) (xy 34.29 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2922,9 +2922,9 @@
 		)
 		(uuid "665d0114-f57b-4510-8fdd-14c57cfae93e")
 	)
-	(text "V In"
+	(text "V In - USB?"
 		(exclude_from_sim no)
-		(at 112.268 29.21 0)
+		(at 112.268 28.194 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2981,6 +2981,16 @@
 			)
 		)
 		(uuid "e433b416-48f5-474a-ac5e-01285792997a")
+	)
+	(text "50mA charge"
+		(exclude_from_sim no)
+		(at 26.67 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc0171ed-317c-40f4-94da-28775c526da5")
 	)
 	(global_label "VSYS"
 		(shape input)

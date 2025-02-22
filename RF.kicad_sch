@@ -1517,6 +1517,16 @@
 		)
 		(uuid fdaa6037-8417-4524-bf2a-1596c6080451)
 	)
+	(text "Antenna Impedance matching network"
+		(exclude_from_sim no)
+		(at 146.812 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8dac7c66-abae-4dfd-bcae-ba74d4983e65")
+	)
 	(text "NRF5340 Radio Matching network"
 		(exclude_from_sim no)
 		(at 74.422 72.644 0)
@@ -1537,9 +1547,9 @@
 		)
 		(uuid "b143b841-5954-4c3d-a165-743b2cee4483")
 	)
-	(text "50ohm impedance line"
+	(text "50ohm impedance"
 		(exclude_from_sim no)
-		(at 117.856 85.598 0)
+		(at 117.602 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)

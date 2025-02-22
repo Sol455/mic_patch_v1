@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "dec9cc6a-fc99-4745-b83b-22c634be937b")
+	(paper "A4")
+	(lib_symbols)
+	(global_label "SD MOSI"
+		(shape input)
+		(at 46.99 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ad49300-e19a-40d7-bb75-d82c89fca16a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.9615 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD SCLK"
+		(shape input)
+		(at 46.99 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85c8ddeb-0032-436a-bc26-f48f435d0890")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.7801 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD MISO"
+		(shape input)
+		(at 46.99 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca1711e5-5c3d-4fd0-8661-bbfc971deabd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.9615 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD CSN"
+		(shape input)
+		(at 46.99 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9b26eeb-7f3b-4e1a-8996-1f16bb768f00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.7477 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+)

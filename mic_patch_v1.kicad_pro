@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -397,6 +397,10 @@
     [
       "134a282e-9ca3-4100-8ce3-f798951ef007",
       "Mic"
+    ],
+    [
+      "800536da-ce80-4a29-90e4-a5031f507197",
+      "SD_card"
     ]
   ],
   "text_variables": {}

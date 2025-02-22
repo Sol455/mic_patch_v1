@@ -3970,7 +3970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8 VDD_NRF"
+		(property "Value" "+3V0 VDD_NRF"
 			(at 187.706 71.882 0)
 			(effects
 				(font

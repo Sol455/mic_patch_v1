@@ -1300,12 +1300,6 @@
 		(uuid "60d6e5c5-3be1-48d8-9439-4cd868294507")
 	)
 	(junction
-		(at 212.09 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6333dcba-83e4-4809-bbfe-f653e3ae1599")
-	)
-	(junction
 		(at 80.01 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1355,17 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 90.17) (xy 228.6 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "342b83d4-3e39-4ef9-84a8-129749e3c8c4")
-	)
-	(wire
-		(pts
-			(xy 212.09 99.06) (xy 212.09 100.33)
+			(xy 212.09 99.06) (xy 212.09 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1545,16 +1529,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 100.33) (xy 228.6 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9b366aa-3daf-43b3-a742-3affb91183ba")
-	)
-	(wire
-		(pts
 			(xy 66.04 92.71) (xy 66.04 99.06)
 		)
 		(stroke
@@ -1582,26 +1556,6 @@
 			(type default)
 		)
 		(uuid "cf08cb28-64c6-458c-aafd-a9d53ed9762f")
-	)
-	(wire
-		(pts
-			(xy 212.09 100.33) (xy 212.09 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa80a53-e4bf-4651-a15e-510cddc90ad7")
-	)
-	(wire
-		(pts
-			(xy 228.6 90.17) (xy 228.6 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1329c01-9749-48c5-b24f-a2ed1134b04f")
 	)
 	(wire
 		(pts
@@ -1819,106 +1773,6 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/134a282e-9ca3-4100-8ce3-f798951ef007"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mic_patch_parts:C_00003")
-		(at 228.6 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cc393c8-b09f-46b3-af30-da0554eea0c1")
-		(property "Reference" "C24"
-			(at 231.14 95.25 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_00003"
-			(at 231.14 97.79 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.0uF"
-			(at 234.188 100.076 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Desc" ""
-			(at 231.14 100.33 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPNs" ""
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PNs" ""
-			(at 208.28 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c41b881-32ab-4648-be72-11f30d84dc4e")
-		)
-		(pin "2"
-			(uuid "d58cecf3-e47c-4a8f-8d74-22953e169118")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/134a282e-9ca3-4100-8ce3-f798951ef007"
-					(reference "C24")
 					(unit 1)
 				)
 			)

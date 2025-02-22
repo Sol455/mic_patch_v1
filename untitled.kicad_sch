@@ -2235,7 +2235,7 @@
 		(at 152.4 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "28fbe838-ac91-4457-9df2-b64e2a4aff58")
+		(uuid "13c4ad28-7b71-42e8-9d7a-118b1735b1e9")
 	)
 	(junction
 		(at 76.2 111.76)
@@ -2545,6 +2545,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 69.85) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6493094f-22d1-4387-9013-ce9494baa598")
+	)
+	(wire
+		(pts
 			(xy 76.2 119.38) (xy 76.2 116.84)
 		)
 		(stroke
@@ -2655,6 +2665,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 69.85) (xy 154.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830ac90e-df61-4600-bb82-2920fce29d83")
+	)
+	(wire
+		(pts
 			(xy 88.9 95.25) (xy 102.87 95.25)
 		)
 		(stroke
@@ -2672,16 +2692,6 @@
 			(type default)
 		)
 		(uuid "913df68a-6393-459e-9b9e-27afffac2d96")
-	)
-	(wire
-		(pts
-			(xy 152.4 72.39) (xy 158.75 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "915d798e-b2fa-4f82-99b3-b70ad0162922")
 	)
 	(wire
 		(pts
@@ -2912,9 +2922,19 @@
 		)
 		(uuid "4468b788-8680-4ad3-a8d0-0c2f5b94f47a")
 	)
-	(text "Set VDD to 1.8V"
+	(text "Change VDD to 3.3V"
 		(exclude_from_sim no)
-		(at 168.656 72.644 0)
+		(at 181.356 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e20c3f6-21c2-4c91-822a-1548729f0df9")
+	)
+	(text "Set VDD to 3.0V"
+		(exclude_from_sim no)
+		(at 165.1 72.644 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3001,6 +3021,28 @@
 			)
 		)
 		(uuid "fc0171ed-317c-40f4-94da-28775c526da5")
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 154.94 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28135b3f-f797-4c16-8baf-4451cb29d7a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.5214 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VSYS"
 		(shape input)
@@ -4351,71 +4393,6 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/549bd3f0-5402-4113-b11d-8a88b4fc0730"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2a124a2-265b-401a-8124-8c804f15fe75")
-		(property "Reference" "#PWR023"
-			(at 158.75 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e11c912c-edab-4208-99a9-8ec0336b976d")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/549bd3f0-5402-4113-b11d-8a88b4fc0730"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)

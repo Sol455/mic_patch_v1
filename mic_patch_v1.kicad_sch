@@ -119,44 +119,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 208.28 59.69)
-		(size 34.29 30.48)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b3dde2d7-693a-4514-a39d-e3352cf7ff6a")
-		(property "Sheetname" "RF"
-			(at 208.28 58.9784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RF.kicad_sch"
-			(at 208.28 90.7546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb"
-					(page "5")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

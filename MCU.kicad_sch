@@ -3346,7 +3346,7 @@
 	)
 	(text "Audio IN"
 		(exclude_from_sim no)
-		(at 67.564 115.062 0)
+		(at 63.754 115.062 0)
 		(effects
 			(font
 				(size 1.27 1.27)

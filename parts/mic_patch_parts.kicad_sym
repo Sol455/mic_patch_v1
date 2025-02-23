@@ -6317,7 +6317,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NORA-B106-00B:XCVR_NORA-B106-00B"
+		(property "Footprint" "mic_patch_parts:NORA-B106-00B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6327,7 +6327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.u-blox.com/sites/default/files/NORA-B1_DataSheet_UBX-20027119.pdf?utm_content=UBX-20027119"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6336,7 +6336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Nora B106 NRF5340 BLE Module PCB Ant"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6355,114 +6355,20 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8mm"
+		(property "MPNS" "NORA-B106-00B"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "LCSC PNs" "C5438434"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NORA-B106-00B/u-blox/view-part/?ref=eda"
-			(at -3.556 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "R05"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NORA-B106-00B/u-blox/view-part/?ref=snap"
-			(at -2.794 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "NORA-B106-00B"
-			(at 60.96 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            802.15.4, Bluetooth Bluetooth v5.2, Thread, Zigbee® Transceiver Module 2.4GHz Antenna Not Included Surface Mount\n                        \n"
-			(at 0.254 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "u-blox"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "NORA-B106-00B_0_0"

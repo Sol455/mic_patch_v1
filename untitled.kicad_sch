@@ -2922,19 +2922,9 @@
 		)
 		(uuid "4468b788-8680-4ad3-a8d0-0c2f5b94f47a")
 	)
-	(text "Change VDD to 3.3V"
-		(exclude_from_sim no)
-		(at 181.356 64.008 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5e20c3f6-21c2-4c91-822a-1548729f0df9")
-	)
 	(text "Set VDD to 3.0V"
 		(exclude_from_sim no)
-		(at 165.1 72.644 0)
+		(at 162.306 73.914 0)
 		(effects
 			(font
 				(size 1.27 1.27)

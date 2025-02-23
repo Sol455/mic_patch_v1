@@ -1942,7 +1942,7 @@
 	)
 	(text "Place ESd protecion close to SD card, pull ups further away"
 		(exclude_from_sim no)
-		(at 70.612 34.29 0)
+		(at 70.358 45.212 0)
 		(effects
 			(font
 				(size 1.27 1.27)

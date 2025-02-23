@@ -585,6 +585,185 @@
 				)
 			)
 		)
+		(symbol "mic_patch_parts:LED_0003"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_0002"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RED LED"
+				(at -2.032 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Desc" "RED"
+				(at 1.27 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Green LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0003_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_0003_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "mic_patch_parts:NORA-B106-00B"
 			(pin_names
 				(offset 1.016)
@@ -2938,6 +3117,146 @@
 		(color 0 0 0 0)
 		(uuid "fe19ce7b-8e99-4832-88e4-72b6548d43f1")
 	)
+	(no_connect
+		(at 86.36 91.44)
+		(uuid "0d8f72a8-5e95-462b-9a5d-86f88c487d66")
+	)
+	(no_connect
+		(at 86.36 137.16)
+		(uuid "11b0f472-5252-4eaa-830f-f5c02af2d16b")
+	)
+	(no_connect
+		(at 86.36 124.46)
+		(uuid "18cc933c-c2cc-40d2-8e97-eaa7bd5c1699")
+	)
+	(no_connect
+		(at 142.24 116.84)
+		(uuid "25a0e902-d22f-4897-86a3-7fd1af2e8dd7")
+	)
+	(no_connect
+		(at 86.36 121.92)
+		(uuid "2b369d54-7c0a-4e50-bc4e-875c307402ac")
+	)
+	(no_connect
+		(at 142.24 96.52)
+		(uuid "2d32a032-9b7c-4ae5-9f72-8054982158c1")
+	)
+	(no_connect
+		(at 86.36 96.52)
+		(uuid "35a3f71a-7a50-45f2-bf77-c1a1665466ac")
+	)
+	(no_connect
+		(at 86.36 86.36)
+		(uuid "3ec5f743-612c-4011-9a41-b5ced491941d")
+	)
+	(no_connect
+		(at 142.24 109.22)
+		(uuid "40e6f6c5-3e63-4bf7-973b-e8bf46f0be40")
+	)
+	(no_connect
+		(at 86.36 134.62)
+		(uuid "473224f5-e1dd-45d2-b74c-626488cf0925")
+	)
+	(no_connect
+		(at 86.36 149.86)
+		(uuid "4aad78b5-eca9-4469-b70a-cd984b7f8d47")
+	)
+	(no_connect
+		(at 142.24 81.28)
+		(uuid "4e7a7aee-31e4-477f-aadf-c6815e5dde89")
+	)
+	(no_connect
+		(at 142.24 111.76)
+		(uuid "4f8082a3-8a7b-4fbe-907a-50186289dba1")
+	)
+	(no_connect
+		(at 142.24 86.36)
+		(uuid "550e79ed-1db1-40cb-abdb-31a5eb89b602")
+	)
+	(no_connect
+		(at 86.36 152.4)
+		(uuid "7ce1f9b4-d8c8-401d-9d77-a3171569dcd8")
+	)
+	(no_connect
+		(at 86.36 154.94)
+		(uuid "80b4f3ad-776b-46bd-a552-eaa515a99504")
+	)
+	(no_connect
+		(at 86.36 142.24)
+		(uuid "878b1272-7c5f-4820-816c-fac861d860f9")
+	)
+	(no_connect
+		(at 142.24 124.46)
+		(uuid "89faedaa-5d69-467f-a372-b34e1568ac16")
+	)
+	(no_connect
+		(at 142.24 106.68)
+		(uuid "8df6ce4f-14b4-4ff4-8bff-8e9e72840e5d")
+	)
+	(no_connect
+		(at 142.24 114.3)
+		(uuid "900ec74a-69b5-4465-830f-24a3c0b5c6a1")
+	)
+	(no_connect
+		(at 142.24 101.6)
+		(uuid "921d4bd4-101f-4969-abe5-7f77a91e207e")
+	)
+	(no_connect
+		(at 86.36 144.78)
+		(uuid "93b9934c-121c-4918-a256-dafebc47dd50")
+	)
+	(no_connect
+		(at 86.36 83.82)
+		(uuid "9f87c3f9-4769-45a6-8106-fb213920f2ea")
+	)
+	(no_connect
+		(at 86.36 127)
+		(uuid "a4f52da2-ff2f-4a95-a53d-e4e21e6b9ff3")
+	)
+	(no_connect
+		(at 142.24 93.98)
+		(uuid "a7ecfab3-d5df-498a-af75-383d848cf548")
+	)
+	(no_connect
+		(at 86.36 139.7)
+		(uuid "b1ee3589-260e-468e-ac04-6d19b72e94ad")
+	)
+	(no_connect
+		(at 142.24 121.92)
+		(uuid "b6543cd0-0b05-41e5-a265-fdc7966a1b67")
+	)
+	(no_connect
+		(at 86.36 109.22)
+		(uuid "c0cacc8f-bf4b-4713-912e-95a5214e4c7a")
+	)
+	(no_connect
+		(at 86.36 157.48)
+		(uuid "c5bdd75c-f9d0-4217-8136-540763173258")
+	)
+	(no_connect
+		(at 86.36 93.98)
+		(uuid "d9c20f9f-b329-44a1-802e-575cc2080249")
+	)
+	(no_connect
+		(at 142.24 99.06)
+		(uuid "df0405ec-227b-4afd-a033-42906681535c")
+	)
+	(no_connect
+		(at 142.24 83.82)
+		(uuid "df3acb36-085a-4782-8680-910c81a84180")
+	)
+	(no_connect
+		(at 86.36 88.9)
+		(uuid "f8342ae4-57fd-48b4-9d88-07d122529e97")
+	)
+	(no_connect
+		(at 86.36 147.32)
+		(uuid "f8823cad-f4ca-457f-830d-772262d2f2af")
+	)
+	(no_connect
+		(at 142.24 78.74)
+		(uuid "fb5720c6-2a8e-4b19-9e21-1403f3b5c1c4")
+	)
 	(wire
 		(pts
 			(xy 162.56 137.16) (xy 170.18 137.16)
@@ -3260,6 +3579,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 104.14) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a23473-4f71-44ec-a4c4-596d7f5e302c")
+	)
+	(wire
+		(pts
 			(xy 99.06 170.18) (xy 101.6 170.18)
 		)
 		(stroke
@@ -3267,6 +3596,16 @@
 			(type default)
 		)
 		(uuid "584ad47b-1234-4f25-9b55-b860d318570b")
+	)
+	(wire
+		(pts
+			(xy 151.13 109.22) (xy 151.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e19e9f-c8eb-4185-a45f-8f6d7e526dd1")
 	)
 	(wire
 		(pts
@@ -3287,6 +3626,26 @@
 			(type default)
 		)
 		(uuid "5d5ab899-53c7-4db8-b392-1b69fa43c21f")
+	)
+	(wire
+		(pts
+			(xy 142.24 88.9) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c5aa27-f3f3-41b3-aa24-467f9890cfb6")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d8a60e-dfef-4aac-b0a6-c84d725cc5b2")
 	)
 	(wire
 		(pts
@@ -3757,6 +4116,16 @@
 		)
 		(uuid "4b5695ca-e712-424f-89d8-a25e11cd859c")
 	)
+	(text "Change resistor depending on LED"
+		(exclude_from_sim no)
+		(at 181.864 112.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89b255b5-ca50-4876-82d9-ee6f691eb60f")
+	)
 	(text "Audio IN"
 		(exclude_from_sim no)
 		(at 63.754 115.062 0)
@@ -3917,6 +4286,28 @@
 			)
 		)
 	)
+	(global_label "NPM MODE"
+		(shape input)
+		(at 147.32 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55b0b255-5acb-4251-8a0e-b596f0484baa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.5256 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIN"
 		(shape input)
 		(at 78.74 111.76 180)
@@ -4046,6 +4437,93 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "NPM ERROR"
+		(shape input)
+		(at 147.32 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1565070-f6ad-428f-aa2d-1c34005b05ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6142 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06c55a5b-a699-4874-88eb-876c1f4a5946")
+		(property "Reference" "#PWR018"
+			(at 151.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7c08c9e-11ca-48ed-b7a1-2f00ba8947f4")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "#PWR018")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5631,6 +6109,85 @@
 		)
 	)
 	(symbol
+		(lib_id "mic_patch_parts:LED_0003")
+		(at 151.13 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84a72a9d-874f-42e3-8c20-4e7ccbb77da7")
+		(property "Reference" "D3"
+			(at 153.67 104.0764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_0002"
+			(at 153.67 106.6164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RED LED"
+			(at 147.828 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" "RED"
+			(at 153.67 109.1564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "624266d8-5063-487c-a3e3-905f84c13677")
+		)
+		(pin "1"
+			(uuid "3af4090c-b7df-4cab-90c4-eed6c394d78c")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 77.47 0)
 		(unit 1)
@@ -6203,6 +6760,103 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mic_patch_parts:R_00003")
+		(at 151.13 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d41ba921-25de-4db5-a2ab-cdddf765b8dd")
+		(property "Reference" "R14"
+			(at 153.67 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_00002"
+			(at 153.67 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ resistor"
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" "10kΩ "
+			(at 153.67 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPNs" ""
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PNs" ""
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c816742-812a-48a7-899a-595006c16063")
+		)
+		(pin "1"
+			(uuid "10e588b5-646f-4c19-831e-b7a1f5a1db33")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "R14")
 					(unit 1)
 				)
 			)

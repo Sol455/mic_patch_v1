@@ -1699,7 +1699,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1717,7 +1717,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "10kΩ resistor"
+			(property "Description" "10kΩ resistor 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1735,7 +1735,7 @@
 					(justify left)
 				)
 			)
-			(property "MPNs" ""
+			(property "MPNs" "0402WGF1002TCE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1744,7 +1744,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PNs" ""
+			(property "LCSC PNs" "C25744"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3107,7 +3107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.1 93.98 0)
 			(effects
 				(font
@@ -3125,7 +3125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10kΩ resistor"
+		(property "Description" "10kΩ resistor 0402"
 			(at 165.1 93.98 0)
 			(effects
 				(font
@@ -3143,7 +3143,7 @@
 				(justify left)
 			)
 		)
-		(property "MPNs" ""
+		(property "MPNs" "0402WGF1002TCE"
 			(at 165.1 93.98 0)
 			(effects
 				(font
@@ -3152,7 +3152,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C25744"
 			(at 165.1 93.98 0)
 			(effects
 				(font
@@ -3201,7 +3201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -3219,7 +3219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10kΩ resistor"
+		(property "Description" "10kΩ resistor 0402"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -3236,7 +3236,7 @@
 				)
 			)
 		)
-		(property "MPNs" ""
+		(property "MPNs" "0402WGF1002TCE"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -3245,7 +3245,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C25744"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -3689,7 +3689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 93.98 114.3 0)
 			(effects
 				(font
@@ -3707,7 +3707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10kΩ resistor"
+		(property "Description" "10kΩ resistor 0402"
 			(at 93.98 114.3 0)
 			(effects
 				(font
@@ -3725,7 +3725,7 @@
 				(justify left)
 			)
 		)
-		(property "MPNs" ""
+		(property "MPNs" "0402WGF1002TCE"
 			(at 93.98 114.3 0)
 			(effects
 				(font
@@ -3734,7 +3734,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C25744"
 			(at 93.98 114.3 0)
 			(effects
 				(font

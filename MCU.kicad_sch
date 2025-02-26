@@ -704,7 +704,7 @@
 				)
 			)
 		)
-		(symbol "mic_patch_parts:LED_0003"
+		(symbol "mic_patch_parts:LED_0002"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -729,7 +729,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 				(at 0 0 90)
 				(effects
 					(font
@@ -764,7 +764,23 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Green LED diode light-emitting-diode"
+			(property "LCSC PNs" "C2286"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFN PNS" "KT-0603R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RED LED diode light-emitting-diode 1.9V to 2.2V IF 20mA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -782,7 +798,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0003_0_1"
+			(symbol "LED_0002_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -844,7 +860,7 @@
 					)
 				)
 			)
-			(symbol "LED_0003_1_1"
+			(symbol "LED_0002_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -2625,7 +2641,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "mic_patch_parts:SW_000001"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2652,7 +2668,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PNs" ""
+			(property "LCSC PNs" "C2888880"
 				(at 0 14.478 0)
 				(effects
 					(font
@@ -2661,8 +2677,16 @@
 					(hide yes)
 				)
 			)
-			(property "Desc" "Tactile Push Button"
+			(property "Desc" "Tactile Push Button 2 x 3mm SMD"
 				(at 0.254 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPNs" "TSA008A20026A "
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4061,7 +4085,7 @@
 	)
 	(text "SPIM - SD Card"
 		(exclude_from_sim no)
-		(at 58.166 100.076 0)
+		(at 60.706 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4688,6 +4712,102 @@
 		)
 	)
 	(symbol
+		(lib_id "mic_patch_parts:LED_0002")
+		(at 151.13 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e33e6da-bdbf-4203-9826-3a36e0328e0b")
+		(property "Reference" "D2"
+			(at 153.67 101.5364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_0002"
+			(at 153.67 104.0764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 151.13 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RED LED"
+			(at 147.828 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" "RED"
+			(at 153.67 106.6164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC PNs" "C2286"
+			(at 153.67 109.1564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "MFN PNS" "KT-0603R"
+			(at 160.274 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "001851a5-dbb2-485b-af6a-1d356fe4da54")
+		)
+		(pin "1"
+			(uuid "d312c30d-6269-484b-9da9-893b4ad0e333")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 69.85 0)
 		(unit 1)
@@ -4845,7 +4965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mic_patch_parts:SW_000001"
 			(at 43.18 123.19 0)
 			(effects
 				(font
@@ -4872,7 +4992,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C2888880"
 			(at 33.782 123.19 0)
 			(effects
 				(font
@@ -4881,13 +5001,21 @@
 				(hide yes)
 			)
 		)
-		(property "Desc" "Tactile Push Button"
+		(property "Desc" "Tactile Push Button 2 x 3mm SMD"
 			(at 49.53 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "MPNs" "TSA008A20026A "
+			(at 48.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5113,7 +5241,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b1c21d5-2010-4087-a56b-5106722ca4d1")
 		(property "Reference" "U1"
 			(at 114.3 58.42 0)
@@ -5280,7 +5407,7 @@
 			)
 		)
 		(property "MPNS" "NORA-B106-00B"
-			(at 114.3 114.3 0)
+			(at 114.3 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,85 +6021,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mic_patch_parts:LED_0003")
-		(at 151.13 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84a72a9d-874f-42e3-8c20-4e7ccbb77da7")
-		(property "Reference" "D3"
-			(at 153.67 104.0764 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_0002"
-			(at 153.67 106.6164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RED LED"
-			(at 147.828 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Desc" "RED"
-			(at 153.67 109.1564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "624266d8-5063-487c-a3e3-905f84c13677")
-		)
-		(pin "1"
-			(uuid "3af4090c-b7df-4cab-90c4-eed6c394d78c")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 147.32 77.47 0)
 		(unit 1)
@@ -6130,7 +6178,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mic_patch_parts:SW_000001"
 			(at 43.18 154.94 0)
 			(effects
 				(font
@@ -6157,7 +6205,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C2888880"
 			(at 33.782 154.94 0)
 			(effects
 				(font
@@ -6166,13 +6214,21 @@
 				(hide yes)
 			)
 		)
-		(property "Desc" "Tactile Push Button"
+		(property "Desc" "Tactile Push Button 2 x 3mm SMD"
 			(at 49.53 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "MPNs" "TSA008A20026A "
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

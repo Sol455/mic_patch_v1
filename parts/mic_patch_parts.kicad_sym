@@ -3237,7 +3237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 0 0 90)
 			(effects
 				(font
@@ -3272,7 +3272,23 @@
 				)
 			)
 		)
-		(property "ki_keywords" "Green LED diode light-emitting-diode"
+		(property "LCSC PNs" "C2286"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN PNS" "KT-0603R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RED LED diode light-emitting-diode 1.9V to 2.2V IF 20mA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10110,7 +10126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mic_patch_parts:SW_000001"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -10137,7 +10153,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C2888880"
 			(at 0 14.478 0)
 			(effects
 				(font
@@ -10146,8 +10162,16 @@
 				(hide yes)
 			)
 		)
-		(property "Desc" "Tactile Push Button"
+		(property "Desc" "Tactile Push Button 2 x 3mm SMD"
 			(at 0.254 -5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPNs" "TSA008A20026A "
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

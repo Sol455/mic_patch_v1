@@ -2904,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mic_patch_parts:J_000001"
 			(at 6.604 -8.128 0)
 			(effects
 				(font
@@ -2922,7 +2922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "JST SH Pin Connector"
+		(property "Description" "JST SH 2 Right Angled Pin Connector"
 			(at 2.794 11.176 0)
 			(effects
 				(font
@@ -2939,13 +2939,21 @@
 				)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C160402"
 			(at 1.524 -1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPNs" "SM02B-SRSS-TB(LF)(SN) "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "J_000001_1_1"
@@ -9829,7 +9837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9865,7 +9873,7 @@
 				(justify left)
 			)
 		)
-		(property "MPNs" ""
+		(property "MPNs" "0402WGF4700TCE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9874,7 +9882,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C25117"
 			(at 0 0 0)
 			(effects
 				(font

@@ -2617,6 +2617,155 @@
 				)
 			)
 		)
+		(symbol "mic_patch_parts:R_00004"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_00004"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "470Ω resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Desc" "470Ω "
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "MPNs" "0402WGF4700TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PNs" "C25117"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "470Ω resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_00004_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_00004_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "mic_patch_parts:SW_000001"
 			(pin_numbers hide)
 			(pin_names
@@ -3646,7 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 109.22) (xy 151.13 113.03)
+			(xy 151.13 109.22) (xy 151.13 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3743,6 +3892,16 @@
 			(type default)
 		)
 		(uuid "7c1ed961-66c1-4ca1-82e7-14a0812ffaf4")
+	)
+	(wire
+		(pts
+			(xy 151.13 116.84) (xy 151.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d90263b-9559-4892-95e8-9acd71f1bc56")
 	)
 	(wire
 		(pts
@@ -4093,9 +4252,9 @@
 		)
 		(uuid "4b5695ca-e712-424f-89d8-a25e11cd859c")
 	)
-	(text "Change resistor depending on LED"
+	(text "~2mA"
 		(exclude_from_sim no)
-		(at 181.864 112.268 0)
+		(at 163.322 109.728 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4784,7 +4943,7 @@
 			)
 		)
 		(property "MFN PNS" "KT-0603R"
-			(at 160.274 106.172 90)
+			(at 161.036 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,17 +6753,17 @@
 		)
 	)
 	(symbol
-		(lib_id "mic_patch_parts:R_00003")
-		(at 151.13 115.57 0)
+		(lib_id "mic_patch_parts:R_00004")
+		(at 151.13 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d41ba921-25de-4db5-a2ab-cdddf765b8dd")
-		(property "Reference" "R14"
-			(at 153.67 113.0299 0)
+		(uuid "e6a4241a-02f4-46ed-9892-540b1ff37fdf")
+		(property "Reference" "R4"
+			(at 153.67 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,8 +6771,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_00002"
-			(at 153.67 115.5699 0)
+		(property "Value" "R_00004"
+			(at 153.67 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +6781,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 151.13 115.57 0)
+			(at 151.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +6790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 115.57 0)
+			(at 151.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,8 +6798,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10kΩ resistor 0402"
-			(at 151.13 115.57 0)
+		(property "Description" "470Ω resistor"
+			(at 151.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,8 +6807,8 @@
 				(hide yes)
 			)
 		)
-		(property "Desc" "10kΩ "
-			(at 153.67 118.1099 0)
+		(property "Desc" "470Ω "
+			(at 153.67 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6657,8 +6816,8 @@
 				(justify left)
 			)
 		)
-		(property "MPNs" "0402WGF1002TCE"
-			(at 151.13 115.57 0)
+		(property "MPNs" "0402WGF4700TCE"
+			(at 151.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,25 +6825,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" "C25744"
-			(at 151.13 115.57 0)
+		(property "LCSC PNs" "C25117"
+			(at 151.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "5c816742-812a-48a7-899a-595006c16063")
 		)
 		(pin "1"
-			(uuid "10e588b5-646f-4c19-831e-b7a1f5a1db33")
+			(uuid "03afaa2a-3b95-4dca-af72-ad01c6874da1")
+		)
+		(pin "2"
+			(uuid "a145677b-8500-4a4d-8c00-24071dbb1804")
 		)
 		(instances
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
-					(reference "R14")
+					(reference "R4")
 					(unit 1)
 				)
 			)

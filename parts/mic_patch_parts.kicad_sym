@@ -1813,7 +1813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at -25.4 -1.27 0)
 			(effects
 				(font
@@ -1831,7 +1831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.0uF"
+		(property "Description" "1.0uF 0402"
 			(at 5.588 -2.286 0)
 			(do_not_autoplace)
 			(effects
@@ -1850,7 +1850,7 @@
 				(justify left)
 			)
 		)
-		(property "MPNs" ""
+		(property "MPNs" "CL05A105KA5NQNC"
 			(at -21.59 7.62 0)
 			(effects
 				(font
@@ -1859,7 +1859,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C52923"
 			(at -20.32 2.54 0)
 			(effects
 				(font
@@ -2127,7 +2127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at -25.4 -1.27 0)
 			(effects
 				(font
@@ -2145,7 +2145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF"
+		(property "Description" "10uF 0603"
 			(at 5.588 -2.286 0)
 			(do_not_autoplace)
 			(effects
@@ -2164,7 +2164,7 @@
 				(justify left)
 			)
 		)
-		(property "MPNs" ""
+		(property "MPNs" "CL10A106KP8NNNC"
 			(at -21.59 7.62 0)
 			(effects
 				(font
@@ -2173,7 +2173,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C19702"
 			(at -20.32 2.54 0)
 			(effects
 				(font
@@ -2302,7 +2302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2uF"
+		(property "Description" "2.2uF 0603"
 			(at 5.588 -2.286 0)
 			(do_not_autoplace)
 			(effects
@@ -2321,7 +2321,7 @@
 				(justify left)
 			)
 		)
-		(property "MPNs" ""
+		(property "MPNs" "CL10A225KO8NNNC"
 			(at -21.59 7.62 0)
 			(effects
 				(font
@@ -2330,7 +2330,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C23630"
 			(at -20.32 2.54 0)
 			(effects
 				(font
@@ -3066,7 +3066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 0 0 90)
 			(effects
 				(font
@@ -3084,7 +3084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green LED"
+		(property "Description" "YELLOW 0603"
 			(at -2.032 3.302 0)
 			(effects
 				(font
@@ -3093,8 +3093,24 @@
 				(hide yes)
 			)
 		)
-		(property "Desc" "GREEN"
+		(property "Desc" "YELLOW 0603 1.7V to 2.3V"
 			(at 1.27 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PNs" "C72038"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPNs" "19-213/Y2C-CQ2R2L/3T(CY) "
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,7 +3821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at -31.75 5.08 0)
 			(effects
 				(font
@@ -3823,7 +3839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2uH Inductor"
+		(property "Description" "2.2uH Inductor 0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3841,7 +3857,7 @@
 				(justify left)
 			)
 		)
-		(property "MFNs" ""
+		(property "MFNs" "CMI201209U2R2KT"
 			(at -34.29 2.54 0)
 			(effects
 				(font
@@ -3850,7 +3866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C1043"
 			(at -35.56 -1.27 0)
 			(effects
 				(font
@@ -9539,7 +9555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9566,7 +9582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Desc" "11kΩ "
+		(property "Desc" "11kΩ  0402"
 			(at 1.27 -2.54 0)
 			(effects
 				(font
@@ -9575,7 +9591,7 @@
 				(justify left)
 			)
 		)
-		(property "MPNs" ""
+		(property "MPNs" "0402WGF1102TCE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9584,7 +9600,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C25749"
 			(at 0 0 0)
 			(effects
 				(font

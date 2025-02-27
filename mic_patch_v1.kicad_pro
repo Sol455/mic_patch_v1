@@ -672,6 +672,14 @@
       {
         "netclass": "SWD",
         "pattern": "/MCU/SWDIO"
+      },
+      {
+        "netclass": "SD",
+        "pattern": "/SD_card/DAT_2_pull_up"
+      },
+      {
+        "netclass": "SD",
+        "pattern": "/SD_card/DAT1_pull_up"
       }
     ]
   },

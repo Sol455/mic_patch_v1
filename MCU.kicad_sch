@@ -5126,7 +5126,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34ccdfe3-f8e5-4141-9253-a99e533efda6")
 		(property "Reference" "SW1"
 			(at 49.53 120.6499 90)
@@ -5192,7 +5191,7 @@
 			)
 		)
 		(property "MPNs" "TSA008A20026A "
-			(at 48.26 123.19 0)
+			(at 38.862 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6339,7 +6338,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "972444eb-52e8-4ae0-9b85-fb3c46083104")
 		(property "Reference" "SW2"
 			(at 49.53 152.3999 90)
@@ -6405,7 +6403,7 @@
 			)
 		)
 		(property "MPNs" "TSA008A20026A "
-			(at 48.26 154.94 0)
+			(at 38.1 158.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)

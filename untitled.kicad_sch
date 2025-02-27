@@ -769,7 +769,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 				(at -25.4 -1.27 0)
 				(effects
 					(font
@@ -3950,7 +3950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mic_patch_parts:C5260493"
 			(at 194.564 78.232 0)
 			(effects
 				(font
@@ -6274,7 +6274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 104.14 60.96 0)
 			(effects
 				(font

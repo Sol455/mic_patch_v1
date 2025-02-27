@@ -2284,7 +2284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at -25.4 -1.27 0)
 			(effects
 				(font
@@ -3061,7 +3061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mic_patch_parts:J_000002"
 			(at 1.524 -16.002 0)
 			(effects
 				(font
@@ -3096,7 +3096,7 @@
 				)
 			)
 		)
-		(property "LCSC PNs" "C18357553"
+		(property "LCSC PNs" "C5260493"
 			(at 1.524 -13.716 0)
 			(effects
 				(font
@@ -6779,7 +6779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mic_patch_parts:TF-SMD_TF-017"
 			(at 29.21 7.62 0)
 			(effects
 				(font
@@ -8696,7 +8696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN1308-6_SOT8006_NEX"
+		(property "Footprint" "mic_patch_parts:DFN1308-6_SOT8006_NEX"
 			(at 29.718 8.382 0)
 			(effects
 				(font
@@ -8723,14 +8723,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "PESD3V3X4UHMYL"
@@ -10424,7 +10416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10460,7 +10452,7 @@
 				(justify left)
 			)
 		)
-		(property "MPNs" ""
+		(property "MPNs" "0402WGF1000TCE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10469,7 +10461,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C25076"
 			(at 0 0 0)
 			(effects
 				(font

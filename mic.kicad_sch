@@ -940,7 +940,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -976,7 +976,7 @@
 					(justify left)
 				)
 			)
-			(property "MPNs" ""
+			(property "MPNs" "0402WGF1000TCE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -985,7 +985,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PNs" ""
+			(property "LCSC PNs" "C25076"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2120,7 +2120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 86.36 0)
 			(effects
 				(font
@@ -2155,7 +2155,7 @@
 				)
 			)
 		)
-		(property "MPNs" ""
+		(property "MPNs" "0402WGF1000TCE"
 			(at 125.73 86.36 0)
 			(effects
 				(font
@@ -2164,7 +2164,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C25076"
 			(at 125.73 86.36 0)
 			(effects
 				(font

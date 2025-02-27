@@ -1942,6 +1942,28 @@
 		)
 		(uuid "9124fda5-42ba-444f-86c4-b798a204560b")
 	)
+	(label "DAT_2_pull_up"
+		(at 120.65 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8177505c-2956-4d4b-8607-57897a10cab4")
+	)
+	(label "DAT1_pull_up"
+		(at 105.41 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "870c52f6-e0a6-4846-8fff-aa30132a28df")
+	)
 	(global_label "SD MOSI"
 		(shape input)
 		(at 53.34 76.2 180)

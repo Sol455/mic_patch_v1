@@ -4292,6 +4292,28 @@
 		)
 		(uuid "ce116e0e-fea2-4844-a733-f472dd83e6d5")
 	)
+	(label "SWDIO"
+		(at 147.32 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26e9550a-a5f7-4ffa-98ca-e296a908ebf8")
+	)
+	(label "SWCLK"
+		(at 147.32 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebd13ebb-fcbd-4b76-a9f5-4fabd2a4effa")
+	)
 	(global_label "SD MOSI"
 		(shape input)
 		(at 80.01 101.6 180)

@@ -3725,6 +3725,83 @@
 		)
 		(uuid "fc0171ed-317c-40f4-94da-28775c526da5")
 	)
+	(label "NTC"
+		(at 77.47 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08648e67-f739-4f46-af2d-9008709f8923")
+	)
+	(label "DEC_NPM"
+		(at 130.81 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7556c6af-2e92-48a2-933d-ab28c79c709c")
+	)
+	(label "ICHG"
+		(at 63.5 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75584a2c-e6be-4f1f-b560-2e854e481b37")
+	)
+	(label "VBAT"
+		(at 90.17 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "858e19d9-7c9c-44d1-bda0-233d6dbadd58")
+	)
+	(label "NPM SW"
+		(at 130.81 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d84bb4a-819a-4793-b7f5-4ea2813aa84b")
+	)
+	(label "VBUS"
+		(at 113.03 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a02454f8-0363-42f1-8741-a66a3a46fd0d")
+	)
+	(label "CHG_IND"
+		(at 71.12 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da530165-de3c-40ea-a375-618fe92b9346")
+	)
 	(global_label "VSYS"
 		(shape input)
 		(at 134.62 90.17 0)

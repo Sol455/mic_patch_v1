@@ -1657,6 +1657,39 @@
 		)
 		(uuid "ebcf6b63-dae2-4348-b729-927da2b5d503")
 	)
+	(label "PDM_CLK"
+		(at 143.51 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89536f6d-bef7-485e-bbc4-e04dabea9064")
+	)
+	(label "L_R"
+		(at 123.19 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96a6ebb1-7136-4410-83d9-f09b9106f879")
+	)
+	(label "PDM_DAT"
+		(at 139.7 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db0e2ebb-3ce6-4840-bb91-6b387650f7b5")
+	)
 	(global_label "FSYNC_LRCLK"
 		(shape input)
 		(at 191.77 93.98 0)

@@ -4296,7 +4296,7 @@
 	)
 	(text "internal load capacitors set to 9pF"
 		(exclude_from_sim no)
-		(at 56.642 88.138 0)
+		(at 46.736 85.852 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4316,7 +4316,7 @@
 	)
 	(text "Audio IN"
 		(exclude_from_sim no)
-		(at 63.754 115.062 0)
+		(at 64.516 115.062 0)
 		(effects
 			(font
 				(size 1.27 1.27)

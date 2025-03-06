@@ -3329,9 +3329,9 @@
 	(footprint "mic_patch_parts:NORA-B106-00B"
 		(layer "F.Cu")
 		(uuid "33e7cfd7-9f4e-4ee5-9e04-91cfe3e0b293")
-		(at 115.4 76.2)
+		(at 161.6 105)
 		(property "Reference" "U1"
-			(at -3.325 -6.635 0)
+			(at -3.325 -6.635 360)
 			(layer "F.SilkS")
 			(uuid "4c956465-e6bb-4e5d-bec3-9a5043a9cd9d")
 			(effects
@@ -3342,7 +3342,7 @@
 			)
 		)
 		(property "Value" "NORA-B106-00B"
-			(at 4.93 7.135 0)
+			(at 4.93 7.135 360)
 			(layer "F.Fab")
 			(uuid "f98cede7-7817-47f9-a404-acce6a7d3c78")
 			(effects
@@ -3727,7 +3727,7 @@
 			(uuid "1ca6e07c-9395-43a9-b62c-a8525405e1e6")
 		)
 		(fp_text user "PCB Edge"
-			(at 7.75 -6 0)
+			(at 7.75 -6 360)
 			(layer "F.Fab")
 			(uuid "3f12622b-ef04-4f9c-889a-ea425efd74d5")
 			(effects
@@ -4581,8 +4581,8 @@
 			)
 			(polygon
 				(pts
-					(xy 120.1 72.1) (xy 120.1 80.3) (xy 122.5 80.3) (xy 122.5 79.2) (xy 123.3 79.2) (xy 123.3 81.4)
-					(xy 123.45 81.4) (xy 123.45 71) (xy 123.3 71) (xy 123.3 73.2) (xy 122.5 73.2) (xy 122.5 72.1)
+					(xy 166.3 100.9) (xy 166.3 109.1) (xy 168.7 109.1) (xy 168.7 108) (xy 169.5 108) (xy 169.5 110.2)
+					(xy 169.65 110.2) (xy 169.65 99.8) (xy 169.5 99.8) (xy 169.5 102) (xy 168.7 102) (xy 168.7 100.9)
 				)
 			)
 		)
@@ -4610,8 +4610,8 @@
 			)
 			(polygon
 				(pts
-					(xy 120.1 72.1) (xy 120.1 80.3) (xy 122.5 80.3) (xy 122.5 79.2) (xy 123.3 79.2) (xy 123.3 81.4)
-					(xy 123.45 81.4) (xy 123.45 71) (xy 123.3 71) (xy 123.3 73.2) (xy 122.5 73.2) (xy 122.5 72.1)
+					(xy 166.3 100.9) (xy 166.3 109.1) (xy 168.7 109.1) (xy 168.7 108) (xy 169.5 108) (xy 169.5 110.2)
+					(xy 169.65 110.2) (xy 169.65 99.8) (xy 169.5 99.8) (xy 169.5 102) (xy 168.7 102) (xy 168.7 100.9)
 				)
 			)
 		)
@@ -4639,8 +4639,8 @@
 			)
 			(polygon
 				(pts
-					(xy 120.1 72.1) (xy 120.1 80.3) (xy 122.5 80.3) (xy 122.5 79.2) (xy 123.3 79.2) (xy 123.3 81.4)
-					(xy 123.45 81.4) (xy 123.45 71) (xy 123.3 71) (xy 123.3 73.2) (xy 122.5 73.2) (xy 122.5 72.1)
+					(xy 166.3 100.9) (xy 166.3 109.1) (xy 168.7 109.1) (xy 168.7 108) (xy 169.5 108) (xy 169.5 110.2)
+					(xy 169.65 110.2) (xy 169.65 99.8) (xy 169.5 99.8) (xy 169.5 102) (xy 168.7 102) (xy 168.7 100.9)
 				)
 			)
 		)
@@ -5258,7 +5258,7 @@
 		)
 		(fp_arc
 			(start 5.684 -0.116)
-			(mid 5.673697 -0.131642)
+			(mid 5.673709 -0.131642)
 			(end 5.67 -0.15)
 			(stroke
 				(width 0.051)
@@ -5280,7 +5280,7 @@
 		)
 		(fp_arc
 			(start 5.43 -4.486)
-			(mid 5.432579 -4.49901)
+			(mid 5.432585 -4.499004)
 			(end 5.44 -4.51)
 			(stroke
 				(width 0.051)
@@ -6456,7 +6456,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "41a34798-f423-4404-9274-e18dfdf568a8")
-		(at 107.11 73.35 180)
+		(at 150.11 102 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
@@ -8723,7 +8723,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6ad9e102-9511-4fdc-98b6-c377239173da")
-		(at 107.49 78.5)
+		(at 148.51 108)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
@@ -14628,7 +14628,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ea022f50-d126-4289-8083-825a4a589175")
-		(at 105.11 73.35)
+		(at 148.11 102)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
@@ -14989,7 +14989,7 @@
 	(footprint "mic_patch_parts:AUD_00002"
 		(layer "F.Cu")
 		(uuid "f6ef6da4-bbb5-49c8-9ee1-474be158ad03")
-		(at 106.32 76)
+		(at 149.32 105)
 		(descr "Infineon, IP57, XENSIV, LGA-5, https://www.infineon.com/dgdl/Infineon-IM73A135-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c7f2a768a017fadec36b84500")
 		(tags "MEMS Microphone LGA Dust Water")
 		(property "Reference" "MK1"
@@ -15485,9 +15485,29 @@
 		(layer "F.SilkS")
 		(uuid "8ac8ad84-7d55-47bb-9773-b69d764fd990")
 	)
+	(gr_line
+		(start 170 105)
+		(end 130 105)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "79a22c91-7420-4491-8a42-9fb36d48b423")
+	)
+	(gr_line
+		(start 150 120)
+		(end 150 90)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e4406960-279b-4d96-a834-e9029a392a9e")
+	)
 	(gr_rect
-		(start 93.7 60.9)
-		(end 123.7 90.9)
+		(start 130 89.5)
+		(end 170 120.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15495,5 +15515,236 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "9bbe5d0f-6178-4013-bf4d-eab078dd1e9a")
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "70f7b87e-2380-458c-932a-03445d2e90be")
+		(pts
+			(xy 160 120) (xy 160 105)
+		)
+		(height 6)
+		(gr_text "15.0000 mm"
+			(at 164.85 112.5 90)
+			(layer "Dwgs.User")
+			(uuid "70f7b87e-2380-458c-932a-03445d2e90be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "7fcec8e2-8944-4776-b7b7-d16386f8c666")
+		(pts
+			(xy 159 110.5) (xy 159 120.5)
+		)
+		(height 6)
+		(gr_text "10.0000 mm"
+			(at 151.85 115.5 90)
+			(layer "Dwgs.User")
+			(uuid "7fcec8e2-8944-4776-b7b7-d16386f8c666")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "a443007a-d732-43ef-9faa-eb0beb8b2669")
+		(pts
+			(xy 130 116) (xy 150 116)
+		)
+		(height -4)
+		(gr_text "20.0000 mm"
+			(at 140 110.85 0)
+			(layer "Dwgs.User")
+			(uuid "a443007a-d732-43ef-9faa-eb0beb8b2669")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "c9cb483d-4687-4a69-a9b1-6890e671c848")
+		(pts
+			(xy 150 118) (xy 170 118)
+		)
+		(height 9)
+		(gr_text "20.0000 mm"
+			(at 160 125.85 0)
+			(layer "Dwgs.User")
+			(uuid "c9cb483d-4687-4a69-a9b1-6890e671c848")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "12f5f7d8-0c91-41c7-ade8-e84d5f3470a0")
+		(pts
+			(xy 139.5 120.5) (xy 139.5 105)
+		)
+		(height -10.5)
+		(gr_text "15.5000 mm"
+			(at 127.85 112.75 90)
+			(layer "Cmts.User")
+			(uuid "12f5f7d8-0c91-41c7-ade8-e84d5f3470a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "52b386b2-f486-4122-8632-9251705fdd1e")
+		(pts
+			(xy 165 99.5) (xy 165 89.5)
+		)
+		(height 9.5)
+		(gr_text "10.0000 mm"
+			(at 173.35 94.5 90)
+			(layer "Cmts.User")
+			(uuid "52b386b2-f486-4122-8632-9251705fdd1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "79e4fe1f-68e8-4efb-a9d5-e12d1f5d3122")
+		(pts
+			(xy 140.5 105) (xy 140.5 89.5)
+		)
+		(height -11.5)
+		(gr_text "15.5000 mm"
+			(at 127.85 97.25 90)
+			(layer "Cmts.User")
+			(uuid "79e4fe1f-68e8-4efb-a9d5-e12d1f5d3122")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 )

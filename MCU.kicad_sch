@@ -3166,6 +3166,12 @@
 		(uuid "1aa90a7d-b2f1-4052-b750-a37dac0cda59")
 	)
 	(junction
+		(at 168.91 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "203c9036-baa2-482c-85ee-7174f0decac7")
+	)
+	(junction
 		(at 83.82 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3182,6 +3188,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bd57ad1-e162-481b-a16e-ad2e9a33a80a")
+	)
+	(junction
+		(at 180.34 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fea7729-5474-4998-a414-ab759652abdb")
 	)
 	(junction
 		(at 123.19 170.18)
@@ -3685,16 +3697,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 68.58) (xy 156.21 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d7702da-a3f9-4db0-8a57-84bbb8fb1469")
-	)
-	(wire
-		(pts
 			(xy 106.68 170.18) (xy 109.22 170.18)
 		)
 		(stroke
@@ -3742,6 +3744,16 @@
 			(type default)
 		)
 		(uuid "41ebae9f-9017-47e1-8950-4382fa268bbd")
+	)
+	(wire
+		(pts
+			(xy 168.91 63.5) (xy 180.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429c1a99-d394-478e-bb44-754c0ee0514f")
 	)
 	(wire
 		(pts
@@ -3875,6 +3887,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 64.77) (xy 180.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781cce5e-ebb4-4dbc-8c44-1a6b1a8882b2")
+	)
+	(wire
+		(pts
 			(xy 83.82 73.66) (xy 86.36 73.66)
 		)
 		(stroke
@@ -3922,6 +3944,16 @@
 			(type default)
 		)
 		(uuid "8007624d-0cf3-4b5d-b79d-7c721a92161a")
+	)
+	(wire
+		(pts
+			(xy 156.21 64.77) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80bf1c8a-db99-4589-be3b-ad5fdfc1f073")
 	)
 	(wire
 		(pts
@@ -4005,16 +4037,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 68.58) (xy 170.18 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5f18e8a-ee4e-4169-9d47-fcf507caf18b")
-	)
-	(wire
-		(pts
 			(xy 73.66 67.31) (xy 83.82 67.31)
 		)
 		(stroke
@@ -4065,7 +4087,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 63.5) (xy 170.18 63.5)
+			(xy 156.21 63.5) (xy 168.91 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4135,6 +4157,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 64.77) (xy 186.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d301d87d-7781-4d19-9d7c-51882fdc2b81")
+	)
+	(wire
+		(pts
 			(xy 82.55 81.28) (xy 82.55 83.82)
 		)
 		(stroke
@@ -4162,6 +4194,16 @@
 			(type default)
 		)
 		(uuid "e5b42de4-9a66-4fe0-9628-047094705bde")
+	)
+	(wire
+		(pts
+			(xy 168.91 64.77) (xy 168.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe99b78-c249-48df-b817-4ba693c1d9f6")
 	)
 	(wire
 		(pts
@@ -4251,6 +4293,16 @@
 			)
 		)
 		(uuid "4b5695ca-e712-424f-89d8-a25e11cd859c")
+	)
+	(text "internal load capacitors set to 9pF"
+		(exclude_from_sim no)
+		(at 56.642 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7775c53f-6fde-4304-ab66-b9b940b411d9")
 	)
 	(text "~2mA"
 		(exclude_from_sim no)
@@ -4753,6 +4805,105 @@
 		)
 	)
 	(symbol
+		(lib_id "mic_patch_parts:C_00001")
+		(at 168.91 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08f4bc87-7b02-48c3-818f-119bb789d1e8")
+		(property "Reference" "C6"
+			(at 171.45 64.77 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_00001"
+			(at 167.894 61.468 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF"
+			(at 174.498 69.596 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" ""
+			(at 171.45 69.85 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPNs" "0402WGF1002TCE"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PNs" "C25744"
+			(at 148.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ca2855d-0990-4415-82d7-b36a99dc4b1c")
+		)
+		(pin "2"
+			(uuid "211831bc-3c05-4c92-bbbd-04056af30b4e")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 147.32 63.5 0)
 		(unit 1)
@@ -4980,7 +5131,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 69.85 0)
+		(at 186.69 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4988,7 +5139,7 @@
 		(dnp no)
 		(uuid "245b048f-fbff-4555-8e67-a47e822b255f")
 		(property "Reference" "#PWR03"
-			(at 170.18 76.2 0)
+			(at 186.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 73.66 0)
+			(at 186.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +5156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 69.85 0)
+			(at 186.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +5165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 69.85 0)
+			(at 186.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5174,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 69.85 0)
+			(at 186.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5356,7 @@
 	)
 	(symbol
 		(lib_id "mic_patch_parts:C_00001")
-		(at 156.21 66.04 0)
+		(at 156.21 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5214,7 +5365,7 @@
 		(fields_autoplaced yes)
 		(uuid "3844e8e8-1743-4d5e-a484-755aae41aeea")
 		(property "Reference" "C1"
-			(at 158.75 63.5 0)
+			(at 158.75 64.77 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5224,7 +5375,7 @@
 			)
 		)
 		(property "Value" "C_00001"
-			(at 158.75 66.04 0)
+			(at 158.75 67.31 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5234,7 +5385,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 130.81 67.31 0)
+			(at 130.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5394,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 66.04 0)
+			(at 156.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +5403,7 @@
 			)
 		)
 		(property "Description" "100nF"
-			(at 161.798 68.326 0)
+			(at 161.798 69.596 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5261,7 +5412,7 @@
 			)
 		)
 		(property "Desc" ""
-			(at 158.75 68.58 0)
+			(at 158.75 69.85 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5271,7 +5422,7 @@
 			)
 		)
 		(property "MPNs" "0402WGF1002TCE"
-			(at 134.62 58.42 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5431,7 @@
 			)
 		)
 		(property "LCSC PNs" "C25744"
-			(at 135.89 63.5 0)
+			(at 135.89 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5456,7 @@
 	)
 	(symbol
 		(lib_id "mic_patch_parts:C_000010")
-		(at 170.18 66.04 0)
+		(at 186.69 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5314,7 +5465,7 @@
 		(fields_autoplaced yes)
 		(uuid "4564e1f4-1fa5-478f-825c-89757bfe9003")
 		(property "Reference" "C3"
-			(at 172.72 63.5 0)
+			(at 189.23 64.77 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5324,7 +5475,7 @@
 			)
 		)
 		(property "Value" "C_000010"
-			(at 172.72 66.04 0)
+			(at 189.23 67.31 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5334,7 +5485,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 144.78 67.31 0)
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 66.04 0)
+			(at 186.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5503,7 @@
 			)
 		)
 		(property "Description" "4.7uF"
-			(at 175.768 68.326 0)
+			(at 192.278 69.596 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5361,7 +5512,7 @@
 			)
 		)
 		(property "Desc" ""
-			(at 172.72 68.58 0)
+			(at 189.23 69.85 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5371,7 +5522,7 @@
 			)
 		)
 		(property "MPNs" "CL05A475MP5NRNC"
-			(at 148.59 58.42 0)
+			(at 165.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5531,7 @@
 			)
 		)
 		(property "LCSC PNs" "C23733"
-			(at 149.86 63.5 0)
+			(at 166.37 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,6 +6000,105 @@
 	)
 	(symbol
 		(lib_id "mic_patch_parts:C_00001")
+		(at 180.34 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cdc0261-216e-4222-bf34-608dc042b641")
+		(property "Reference" "C7"
+			(at 182.88 64.77 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_00001"
+			(at 179.578 61.722 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF"
+			(at 183.388 69.85 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" ""
+			(at 182.88 69.85 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPNs" "0402WGF1002TCE"
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PNs" "C25744"
+			(at 160.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f1fa0c8-9678-4e26-bea4-cbfb303c153b")
+		)
+		(pin "2"
+			(uuid "5a68d68f-bf1d-4987-b477-deec59eefa22")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mic_patch_parts:C_00001")
 		(at 83.82 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6185,6 +6435,71 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9322823b-77da-432b-a5f8-d8e2861c2bd4")
+		(property "Reference" "#PWR023"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "899fd249-f2a7-4203-86a3-9489eb5911c7")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6854,6 +7169,71 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eba26338-0ba7-4cd5-8f69-c657cb3dad76")
+		(property "Reference" "#PWR021"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01ac1050-7785-4950-bd5e-51253ca85c92")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)

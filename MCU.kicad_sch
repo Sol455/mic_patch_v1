@@ -4282,16 +4282,6 @@
 		)
 		(uuid "cb560071-fe0c-42d7-8f4a-8263e94b7af9")
 	)
-	(text "Debug Voltage level Considerations!"
-		(exclude_from_sim no)
-		(at 48.26 21.082 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ce116e0e-fea2-4844-a733-f472dd83e6d5")
-	)
 	(label "SWDIO"
 		(at 147.32 133.35 0)
 		(fields_autoplaced yes)

@@ -3238,6 +3238,12 @@
 		(uuid "49abfc6d-88d2-44ae-894c-b356504bcf0f")
 	)
 	(junction
+		(at 48.26 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d49db80-24d2-4dbf-89fd-6e561741c2b5")
+	)
+	(junction
 		(at 106.68 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3248,12 +3254,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74d85f5e-db6a-48f5-823d-458877d75dc8")
-	)
-	(junction
-		(at 48.26 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84f0489b-12b9-4055-88ab-e2936bdeb4cb")
 	)
 	(junction
 		(at 110.49 170.18)
@@ -3318,16 +3318,12 @@
 		(uuid "11b0f472-5252-4eaa-830f-f5c02af2d16b")
 	)
 	(no_connect
+		(at 86.36 129.54)
+		(uuid "13ab5452-5b0f-4483-9397-d56dd31f8398")
+	)
+	(no_connect
 		(at 142.24 104.14)
 		(uuid "17d5d019-fff2-44c7-8390-bbd5b903d866")
-	)
-	(no_connect
-		(at 86.36 124.46)
-		(uuid "18cc933c-c2cc-40d2-8e97-eaa7bd5c1699")
-	)
-	(no_connect
-		(at 86.36 121.92)
-		(uuid "2b369d54-7c0a-4e50-bc4e-875c307402ac")
 	)
 	(no_connect
 		(at 142.24 96.52)
@@ -3438,6 +3434,10 @@
 		(uuid "df3acb36-085a-4782-8680-910c81a84180")
 	)
 	(no_connect
+		(at 86.36 132.08)
+		(uuid "f066b3be-aa4b-4231-b095-7506d48cb4b9")
+	)
+	(no_connect
 		(at 86.36 88.9)
 		(uuid "f8342ae4-57fd-48b4-9d88-07d122529e97")
 	)
@@ -3501,13 +3501,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 132.08) (xy 78.74 161.29)
+			(xy 78.74 121.92) (xy 78.74 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0441deb9-d748-48af-9fba-90b02ccea11d")
+	)
+	(wire
+		(pts
+			(xy 82.55 128.27) (xy 86.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af5fdb1-01aa-424a-a148-fbf2c9be264f")
 	)
 	(wire
 		(pts
@@ -3558,16 +3568,6 @@
 			(type default)
 		)
 		(uuid "11429c57-353c-4404-a7b1-fff351c85045")
-	)
-	(wire
-		(pts
-			(xy 48.26 128.27) (xy 48.26 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13ca5812-e9f6-4b98-86bd-9a7b683a71a3")
 	)
 	(wire
 		(pts
@@ -3698,16 +3698,6 @@
 			(type default)
 		)
 		(uuid "39f58384-8c41-48fe-88c1-967513280668")
-	)
-	(wire
-		(pts
-			(xy 48.26 129.54) (xy 86.36 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a4995aa-3c4f-4e7a-b1b1-725de24778cd")
 	)
 	(wire
 		(pts
@@ -3981,16 +3971,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 132.08) (xy 86.36 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81ded32c-6991-483f-8924-f64a9e9773ac")
-	)
-	(wire
-		(pts
 			(xy 157.48 125.73) (xy 157.48 124.46)
 		)
 		(stroke
@@ -3998,6 +3978,16 @@
 			(type default)
 		)
 		(uuid "8608a46c-5010-4290-9122-57ab82009b74")
+	)
+	(wire
+		(pts
+			(xy 78.74 121.92) (xy 86.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8669d5d4-b3f7-4fe6-916c-148f99bb5d22")
 	)
 	(wire
 		(pts
@@ -4018,6 +4008,16 @@
 			(type default)
 		)
 		(uuid "8cc2f5a1-d049-4aae-a9c5-18ff4b3c5890")
+	)
+	(wire
+		(pts
+			(xy 48.26 128.27) (xy 82.55 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3a6ccc-e3c0-4023-94c8-f505a93b7e7b")
 	)
 	(wire
 		(pts
@@ -4221,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 129.54) (xy 48.26 130.81)
+			(xy 48.26 128.27) (xy 48.26 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5377,7 +5377,7 @@
 			)
 		)
 		(property "Desc" "Tactile Push Button 2 x 3mm SMD"
-			(at 49.53 125.7299 90)
+			(at 11.176 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)

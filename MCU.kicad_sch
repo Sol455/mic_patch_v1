@@ -197,6 +197,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "mic_patch_parts:CLK_0003"
 			(pin_numbers hide)
 			(pin_names
@@ -3402,14 +3504,6 @@
 		(uuid "a4f52da2-ff2f-4a95-a53d-e4e21e6b9ff3")
 	)
 	(no_connect
-		(at 142.24 93.98)
-		(uuid "a7ecfab3-d5df-498a-af75-383d848cf548")
-	)
-	(no_connect
-		(at 86.36 139.7)
-		(uuid "b1ee3589-260e-468e-ac04-6d19b72e94ad")
-	)
-	(no_connect
 		(at 142.24 121.92)
 		(uuid "b6543cd0-0b05-41e5-a265-fdc7966a1b67")
 	)
@@ -3468,6 +3562,16 @@
 			(type default)
 		)
 		(uuid "00d9318d-2575-40b8-b5d7-698c715e61c1")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 166.37 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0154ad1d-547d-4c49-9e2b-c8646d26c468")
 	)
 	(wire
 		(pts
@@ -3638,6 +3742,16 @@
 			(type default)
 		)
 		(uuid "23c61425-8b74-4c5e-b6ae-8017ddc7054b")
+	)
+	(wire
+		(pts
+			(xy 86.36 139.7) (xy 71.12 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2576d7b1-9762-429a-b08f-2db870219ee5")
 	)
 	(wire
 		(pts
@@ -3861,7 +3975,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 91.44) (xy 147.32 91.44)
+			(xy 71.12 139.7) (xy 69.85 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604452b3-8e37-461d-aa02-2cdd21e4b597")
+	)
+	(wire
+		(pts
+			(xy 146.05 86.36) (xy 147.32 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4201,6 +4325,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 91.44) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8b9e18-3ad8-46e1-be69-c620808915ff")
+	)
+	(wire
+		(pts
 			(xy 180.34 64.77) (xy 186.69 64.77)
 		)
 		(stroke
@@ -4278,6 +4412,26 @@
 			(type default)
 		)
 		(uuid "eef6245d-dfff-4374-8aa4-927d041d4f09")
+	)
+	(wire
+		(pts
+			(xy 146.05 86.36) (xy 146.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1aff770-fdee-4ef1-bfcd-569f37588ff3")
+	)
+	(wire
+		(pts
+			(xy 166.37 93.98) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bfdb9f-0dd1-46de-a28f-9a784a82c7d0")
 	)
 	(wire
 		(pts
@@ -4522,7 +4676,7 @@
 	)
 	(global_label "NPM MODE"
 		(shape input)
-		(at 147.32 91.44 0)
+		(at 147.32 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4532,7 +4686,7 @@
 		)
 		(uuid "55b0b255-5acb-4251-8a0e-b596f0484baa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.5256 91.44 0)
+			(at 160.5256 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,6 +6544,138 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 167.64 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7abfc50c-dbb0-4fd6-be3c-857e4833e90f")
+		(property "Reference" "TP5"
+			(at 165.862 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO Breakout P1.06"
+			(at 162.306 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ecf1d27-38d1-433d-a4ff-90275a97a7f9")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fe54bf7-c880-4ff3-a3a1-a2fee1eee675")
+		(property "Reference" "TP6"
+			(at 68.072 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO Breakout P0.24"
+			(at 64.516 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 74.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "044db7f6-982f-4243-a6e3-4f98f9e552a2")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
+					(reference "TP6")
 					(unit 1)
 				)
 			)

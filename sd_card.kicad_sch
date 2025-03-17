@@ -365,6 +365,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 19.05 -12.7 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at -22.86 5.08 0)
 					(length 3.81)
@@ -1471,6 +1489,12 @@
 		(uuid "07258d5e-add8-4871-96e7-9f208f038247")
 	)
 	(junction
+		(at 168.91 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10a5ad71-0ba4-4ab6-97d1-f8139b60c14f")
+	)
+	(junction
 		(at 116.84 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1664,6 +1688,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 91.44) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abac7fc-c824-4354-a7af-b154734842c1")
+	)
+	(wire
+		(pts
 			(xy 168.91 93.98) (xy 168.91 99.06)
 		)
 		(stroke
@@ -1751,6 +1785,16 @@
 			(type default)
 		)
 		(uuid "66cf51db-10a5-4380-b049-d632540a16ca")
+	)
+	(wire
+		(pts
+			(xy 168.91 91.44) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68562d52-a047-4d70-aea0-b6c7bee055c7")
 	)
 	(wire
 		(pts
@@ -2482,6 +2526,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PNs" "C410348"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32560793-aad9-4275-bf2d-396b5c2417ec")
 		)
@@ -2508,6 +2561,9 @@
 		)
 		(pin "9"
 			(uuid "b344c67d-fbd0-4bc0-8b9e-c12e27a91fed")
+		)
+		(pin "10"
+			(uuid "4064b2e1-07df-477b-b5e3-5da8b59e39ac")
 		)
 		(instances
 			(project "mic_patch_v1"

@@ -8835,7 +8835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mic_patch_parts:DFN1308-6_SOT8006_NEX"
+		(property "Footprint" "mic_patch_parts:SOT8006_C552534"
 			(at 29.718 8.382 0)
 			(effects
 				(font

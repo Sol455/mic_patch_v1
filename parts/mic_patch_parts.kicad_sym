@@ -8864,6 +8864,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PNs" "C552534"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "PESD3V3X4UHMYL"
 			(at 0 0 0)
 			(effects
@@ -9448,6 +9456,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PNs" "C7249860"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "PMIC Charger Regulator"
 			(at 0 0 0)
 			(effects
@@ -10004,7 +10020,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C17477"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10013,7 +10029,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "1k R resistor"
+		(property "ki_keywords" "0ohm R resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10248,7 +10264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 1.27 0 0)
 			(effects
 				(font

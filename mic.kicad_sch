@@ -1033,7 +1033,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_00002"
+			(property "Value" "R_00003"
 				(at 1.27 0 0)
 				(effects
 					(font
@@ -3190,7 +3190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 125.73 96.5199 0)
 			(effects
 				(font

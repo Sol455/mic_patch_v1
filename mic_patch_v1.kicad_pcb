@@ -1219,9 +1219,10 @@
 		(at 157.7 91.15)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
-		(property "Reference" "VDD"
+		(property "Reference" "TP1"
 			(at 2.05 -0.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1960f3d4-db56-4c94-8a19-27da6679f1b6")
 			(effects
 				(font
@@ -1278,6 +1279,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
+		(path "/549bd3f0-5402-4113-b11d-8a88b4fc0730/44a16db3-24d9-40d5-be91-ecdc63d0c3a6")
 		(sheetname "Power")
 		(sheetfile "untitled.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -1861,7 +1863,7 @@
 				)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "1098f752-6f34-443b-8f30-7b5dc185e2e1")
@@ -2099,9 +2101,10 @@
 		(at 155 118.2)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "P0.24"
+		(property "Reference" "TP6"
 			(at 2.25 -0.7 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6de64bde-3e06-4189-8357-efb61a6a5c95")
 			(effects
 				(font
@@ -2158,6 +2161,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
+		(path "/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4/8fe54bf7-c880-4ff3-a3a1-a2fee1eee675")
 		(sheetname "MCU")
 		(sheetfile "MCU.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -2543,7 +2547,7 @@
 				)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "435847f8-f2b7-473c-afe7-df8a0cdf6b0a")
@@ -3562,9 +3566,10 @@
 		(at 152.5 108.4)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "BCLK"
+		(property "Reference" "TP8"
 			(at 1 1.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "654b6863-328d-4390-8c14-d0c675635492")
 			(effects
 				(font
@@ -3621,6 +3626,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
+		(path "/134a282e-9ca3-4100-8ce3-f798951ef007/9ff88b80-c3c4-48db-bd24-9fe7072a5c96")
 		(sheetname "Mic")
 		(sheetfile "mic.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -3933,7 +3939,7 @@
 				)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(uuid "c821eca3-401b-4330-8b68-aae5704080ca")
@@ -6300,7 +6306,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
-			(at -2.15 0.1 270)
+			(at -2.15 0.1 -90)
 			(layer "F.SilkS")
 			(uuid "3b1ecd44-d441-4377-8fc2-ec714d34b369")
 			(effects
@@ -6548,9 +6554,10 @@
 		(at 150.1 109.6)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "LRCLK"
+		(property "Reference" "TP7"
 			(at 0.9 1.65 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6e75122f-c25e-4195-8e58-8a40678f2de9")
 			(effects
 				(font
@@ -6607,6 +6614,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
+		(path "/134a282e-9ca3-4100-8ce3-f798951ef007/8d3cf907-1135-46cc-919b-356b675c88b4")
 		(sheetname "Mic")
 		(sheetfile "mic.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -6670,7 +6678,7 @@
 				)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(uuid "e2537ced-d075-433e-bfeb-9dc6fe48e34c")
@@ -7168,7 +7176,7 @@
 				)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(uuid "bcc9e55e-955d-4d24-97f8-70be18482935")
@@ -7417,7 +7425,7 @@
 				)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "fcafd289-11f2-47aa-a553-99584b99646d")
@@ -8204,9 +8212,10 @@
 		(at 157.6 93.7)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
-		(property "Reference" "GND"
+		(property "Reference" "TP2"
 			(at 2.15 0.05 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e1ac1a41-ffaa-460a-b0b2-4c4c718e2d96")
 			(effects
 				(font
@@ -8263,6 +8272,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
+		(path "/549bd3f0-5402-4113-b11d-8a88b4fc0730/d68f774f-4614-4750-bf91-c6a74c9018a0")
 		(sheetname "Power")
 		(sheetfile "untitled.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -8824,7 +8834,7 @@
 				)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "902d1345-0bce-4b13-858e-290a2c7eee86")
@@ -9571,7 +9581,7 @@
 				)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(uuid "4ea657e2-c790-4d64-a4df-333dd751f233")
@@ -9820,7 +9830,7 @@
 				)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(uuid "e82d2d17-952b-4e29-9e5a-788f897a089b")
@@ -10640,7 +10650,7 @@
 				)
 			)
 		)
-		(property "LCSC PNs" ""
+		(property "LCSC PNs" "C17477"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11309,9 +11319,10 @@
 		(at 149.4 90.9)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "VBUS"
+		(property "Reference" "TP4"
 			(at 2.35 -0.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9ce87371-2610-4927-8318-0b59a7ef45de")
 			(effects
 				(font
@@ -11368,6 +11379,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
+		(path "/549bd3f0-5402-4113-b11d-8a88b4fc0730/64589198-2d79-4002-b1ff-1730007f921e")
 		(sheetname "Power")
 		(sheetfile "untitled.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -11420,9 +11432,10 @@
 		(at 147.8 110.7)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "DIN"
+		(property "Reference" "TP9"
 			(at -0.05 1.55 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9f3e508f-9a16-4b86-9912-9df6334fbcdb")
 			(effects
 				(font
@@ -11479,6 +11492,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
+		(path "/134a282e-9ca3-4100-8ce3-f798951ef007/d615cdef-3de7-42e2-887b-64377b6a6fc8")
 		(sheetname "Mic")
 		(sheetfile "mic.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -12587,7 +12601,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 2.2926 0.9694 270)
+			(at 2.2926 0.9694 -90)
 			(layer "F.SilkS")
 			(uuid "18cf310a-6882-4bbd-841a-9516ef458827")
 			(effects
@@ -13123,7 +13137,7 @@
 				)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "231b3ed5-8c53-4b36-879e-4f63fd4ba49e")
@@ -13611,7 +13625,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C21"
-			(at -0.75 -1.16 270)
+			(at -0.75 -1.16 -90)
 			(layer "F.SilkS")
 			(uuid "14edb7e6-a114-443c-ac15-c3ff7f382188")
 			(effects
@@ -13914,6 +13928,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PNs" "C7249860"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95bea9f8-32a4-4c17-b84b-03c229685cc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14482,6 +14509,32 @@
 				)
 			)
 		)
+		(property "LC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0ff4928-3dd6-4b38-ac9c-5fff140bdb2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC PNs" "C552534"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5888bb44-a8eb-4ed9-a7fa-fc17310b319c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DFN1308-6_SOT8006_NEX DFN1308-6_SOT8006_NEX-M DFN1308-6_SOT8006_NEX-L")
 		(path "/800536da-ce80-4a29-90e4-a5031f507197/47b00ec3-638e-46c8-bfc8-9a5c79bd9e49")
 		(sheetname "SD_card")
@@ -14754,7 +14807,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at -2.15 -0.043 270)
+			(at -2.15 -0.043 -90)
 			(layer "F.SilkS")
 			(uuid "29e75b88-78d6-469b-90b0-f1a8dc17c21e")
 			(effects
@@ -15002,9 +15055,10 @@
 		(at 155 115.6)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "P1.06"
+		(property "Reference" "TP5"
 			(at 1.5 -1.35 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "48d2f5fe-644b-466b-804d-289b880c9ae0")
 			(effects
 				(font
@@ -15061,6 +15115,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
+		(path "/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4/7abfc50c-dbb0-4fd6-be3c-857e4833e90f")
 		(sheetname "MCU")
 		(sheetfile "MCU.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -15113,9 +15168,10 @@
 		(at 157.7 96)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "VBAT"
+		(property "Reference" "TP3"
 			(at 2.05 0.25 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8a5f9959-fe00-4ab6-b257-7a57da20f3f6")
 			(effects
 				(font
@@ -15172,6 +15228,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
+		(path "/549bd3f0-5402-4113-b11d-8a88b4fc0730/be20d9b7-b8d6-4896-80db-16a844f9c42e")
 		(sheetname "Power")
 		(sheetfile "untitled.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -15737,6 +15794,32 @@
 		(layer "Edge.Cuts")
 		(uuid "9bbe5d0f-6178-4013-bf4d-eab078dd1e9a")
 	)
+	(gr_text "ELEC5882M\nMic Patch MK_1.0\n©Sol Harter"
+		(at 159.5 120 0)
+		(layer "F.SilkS")
+		(uuid "1853677f-30a7-4adb-aae1-5ba92d5c8d6b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "P0.24"
+		(at 156 118 0)
+		(layer "F.SilkS")
+		(uuid "28bca61b-39d1-48ae-9418-66948132a7a3")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "C"
 		(at 146.625 106.875 0)
 		(layer "F.SilkS")
@@ -15749,6 +15832,97 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "P1.06"
+		(at 155.25 114.5 0)
+		(layer "F.SilkS")
+		(uuid "33f6c32e-6543-4934-b357-47239dd1ba52")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VDD"
+		(at 158.65 91.15 0)
+		(layer "F.SilkS")
+		(uuid "3bebce61-f851-44da-99b4-379867e70782")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VBUS"
+		(at 150.25 91 0)
+		(layer "F.SilkS")
+		(uuid "47e4caa7-2d8e-49d4-bfa4-6e43cc49f5e4")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 158.75 94.25 0)
+		(layer "F.SilkS")
+		(uuid "4833e74c-7014-4d8c-8615-048ad55884c6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DIN"
+		(at 147 112.5 0)
+		(layer "F.SilkS")
+		(uuid "67ea3220-ed4d-4a18-9585-ce52e81ff572")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LRCLK"
+		(at 149.5 111.75 0)
+		(layer "F.SilkS")
+		(uuid "90f6abf2-c5be-493e-91e1-37a20490072b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BCLK"
+		(at 152.25 110.75 0)
+		(layer "F.SilkS")
+		(uuid "a6abfb77-d380-4be7-9469-51cf6393b8f7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "D"
 		(at 146.625 103.7 0)
 		(layer "F.SilkS")
@@ -15757,6 +15931,19 @@
 			(font
 				(size 0.7 0.7)
 				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VBAT\n"
+		(at 158.75 96.5 0)
+		(layer "F.SilkS")
+		(uuid "ef0d55fc-4003-4863-8c97-cec1c9b64bef")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
 			)
 			(justify left bottom)
 		)

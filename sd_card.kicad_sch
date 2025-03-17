@@ -581,6 +581,14 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PNs" "C552534"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "PESD3V3X4UHMYL"
 				(at 0 0 0)
 				(effects
@@ -1132,7 +1140,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_00002"
+			(property "Value" "R_00003"
 				(at 1.27 0 0)
 				(effects
 					(font
@@ -2299,7 +2307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 105.664 46.482 0)
 			(effects
 				(font
@@ -2395,7 +2403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 116.078 54.102 0)
 			(effects
 				(font
@@ -2592,7 +2600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 97.536 55.626 0)
 			(effects
 				(font
@@ -2723,6 +2731,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LC" ""
+			(at 58.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PNs" "C552534"
+			(at 58.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2900,7 +2925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 123.444 46.482 0)
 			(effects
 				(font
@@ -2996,7 +3021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_00002"
+		(property "Value" "R_00003"
 			(at 121.666 55.372 0)
 			(effects
 				(font

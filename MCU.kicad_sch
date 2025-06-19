@@ -3352,12 +3352,6 @@
 		(uuid "73a8fde8-af8d-4123-b126-5b37e575a9ff")
 	)
 	(junction
-		(at 48.26 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74d85f5e-db6a-48f5-823d-458877d75dc8")
-	)
-	(junction
 		(at 110.49 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3602,16 +3596,6 @@
 			(type default)
 		)
 		(uuid "03565769-79bd-47f8-920c-246eab21db63")
-	)
-	(wire
-		(pts
-			(xy 78.74 121.92) (xy 78.74 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0441deb9-d748-48af-9fba-90b02ccea11d")
 	)
 	(wire
 		(pts
@@ -3905,16 +3889,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 160.02) (xy 48.26 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a40ca1a-bae1-4267-b668-ed5ef7f57e49")
-	)
-	(wire
-		(pts
 			(xy 162.56 129.54) (xy 162.56 133.35)
 		)
 		(stroke
@@ -3922,16 +3896,6 @@
 			(type default)
 		)
 		(uuid "4c522c14-c10b-4c6f-8bdb-118e17b3646f")
-	)
-	(wire
-		(pts
-			(xy 48.26 161.29) (xy 48.26 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "527c77f8-22ff-4a24-9687-35937dd1691b")
 	)
 	(wire
 		(pts
@@ -3992,16 +3956,6 @@
 			(type default)
 		)
 		(uuid "66d8a60e-dfef-4aac-b0a6-c84d725cc5b2")
-	)
-	(wire
-		(pts
-			(xy 48.26 161.29) (xy 78.74 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ace7938-efa6-4193-89a3-bd17353ad6fb")
 	)
 	(wire
 		(pts
@@ -4105,16 +4059,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 121.92) (xy 86.36 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8669d5d4-b3f7-4fe6-916c-148f99bb5d22")
-	)
-	(wire
-		(pts
 			(xy 135.89 170.18) (xy 135.89 172.72)
 		)
 		(stroke
@@ -4202,16 +4146,6 @@
 			(type default)
 		)
 		(uuid "a75b0311-5fe7-4864-a0de-77a61ce8eb70")
-	)
-	(wire
-		(pts
-			(xy 48.26 167.64) (xy 48.26 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7c378f1-5a85-47f0-adc4-f062b1d604f4")
 	)
 	(wire
 		(pts
@@ -5403,71 +5337,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 48.26 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24ac9339-bcb7-44b8-997a-9122c39fe1b9")
-		(property "Reference" "#PWR017"
-			(at 48.26 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2123ba3-28d0-43a5-8f53-97c0610d7786")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mic_patch_parts:SW_000001")
 		(at 48.26 123.19 90)
 		(unit 1)
@@ -6306,168 +6175,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 48.26 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5efe8ff3-85c6-4b1a-9740-01a6e9686ab7")
-		(property "Reference" "#PWR016"
-			(at 48.26 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V0 VDD_NRF"
-			(at 48.006 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 48.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab3ca839-bc57-4642-85b7-d21d61816ea8")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mic_patch_parts:R_00003")
-		(at 48.26 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69eb8228-db33-4a28-beb5-05b1c48269dc")
-		(property "Reference" "R13"
-			(at 50.8 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_00003"
-			(at 50.8 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 48.26 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10kΩ resistor 0402"
-			(at 48.26 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Desc" "10kΩ "
-			(at 50.8 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPNs" "0402WGF1002TCE"
-			(at 48.26 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PNs" "C25744"
-			(at 48.26 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2506bad3-8ab0-4c6a-9c5f-53842636522e")
-		)
-		(pin "1"
-			(uuid "3b8ffe3a-17dc-4854-be12-7e192204b30d")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
 		(at 177.8 132.08 180)
 		(unit 1)
@@ -6871,101 +6578,6 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mic_patch_parts:SW_000001")
-		(at 48.26 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "972444eb-52e8-4ae0-9b85-fb3c46083104")
-		(property "Reference" "SW2"
-			(at 49.53 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_000001"
-			(at 49.53 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mic_patch_parts:SW_000001"
-			(at 43.18 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 37.338 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PNs" "C2888880"
-			(at 33.782 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Desc" "Tactile Push Button 2 x 3mm SMD"
-			(at 49.53 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "MPNs" "TSA008A20026A "
-			(at 38.1 158.242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d653a51e-33b0-4632-97b4-d3f68de97ca7")
-		)
-		(pin "2"
-			(uuid "ff519bfd-653c-4dac-9c5e-b425b32a1365")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/1e8f7a85-c9d9-4dea-908a-5a79456d7ca4"
-					(reference "SW2")
 					(unit 1)
 				)
 			)

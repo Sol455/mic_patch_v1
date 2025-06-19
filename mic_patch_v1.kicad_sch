@@ -120,8 +120,8 @@
 		)
 	)
 	(sheet
-		(at 208.28 59.69)
-		(size 34.29 30.48)
+		(at 199.39 59.69)
+		(size 38.1 31.75)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -130,9 +130,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b3dde2d7-693a-4514-a39d-e3352cf7ff6a")
-		(property "Sheetname" "RF"
-			(at 208.28 58.9784 0)
+		(uuid "800536da-ce80-4a29-90e4-a5031f507197")
+		(property "Sheetname" "SD_card"
+			(at 199.39 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,8 +140,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RF.kicad_sch"
-			(at 208.28 90.7546 0)
+		(property "Sheetfile" "sd_card.kicad_sch"
+			(at 199.39 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

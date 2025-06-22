@@ -107,155 +107,6 @@
 				)
 			)
 		)
-		(symbol "R_00001_1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_00001"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "0Ω resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Desc" "0Ω"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "MPNs" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC PNs" "C17477"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0ohm R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_00001_1_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_00001_1_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "R_00003_1"
 			(pin_numbers hide)
 			(pin_names
@@ -2343,155 +2194,6 @@
 				)
 			)
 		)
-		(symbol "mic_patch_parts:R_00001"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_00001"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "0Ω resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Desc" "0Ω"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "MPNs" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC PNs" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "1k R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_00001_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_00001_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "mic_patch_parts:R_00002"
 			(pin_numbers hide)
 			(pin_names
@@ -3402,12 +3104,6 @@
 		(uuid "f65bf438-1cf6-4308-b21f-d078aa0ec94f")
 	)
 	(junction
-		(at 148.59 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd335eea-3c16-4677-8407-4239f658be55")
-	)
-	(junction
 		(at 132.08 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3446,16 +3142,6 @@
 			(type default)
 		)
 		(uuid "060028f6-14a5-4922-add8-2790ab4cf979")
-	)
-	(wire
-		(pts
-			(xy 153.67 92.71) (xy 148.59 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "089e9ebd-1bf1-4e3d-bb92-6a79db62960d")
 	)
 	(wire
 		(pts
@@ -3689,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 86.36) (xy 148.59 92.71)
+			(xy 148.59 76.2) (xy 148.59 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3999,16 +3685,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 92.71) (xy 161.29 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03ec268-6f2f-42a3-ba87-819382292d36")
-	)
-	(wire
-		(pts
 			(xy 154.94 58.42) (xy 180.34 58.42)
 		)
 		(stroke
@@ -4226,16 +3902,6 @@
 			(type default)
 		)
 		(uuid "fd58e6c2-150c-4648-8fcc-f298f045094f")
-	)
-	(wire
-		(pts
-			(xy 148.59 76.2) (xy 148.59 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffe6b4cb-a54f-4c1e-8dec-64081bc453a0")
 	)
 	(text_box "Setup:\nVoutB: 3.0V, VoutB used for PCB power\nVbus limited to 100mA\nNo USB detection\nForce PWM mode for better RF performance\n4.25V battery term\n50mA battery charging\nNo thermal battery resistor\n\n"
 		(exclude_from_sim no)
@@ -4735,100 +4401,6 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/549bd3f0-5402-4113-b11d-8a88b4fc0730"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mic_patch_parts:R_00001")
-		(at 156.21 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "13be02a3-08d0-4d38-8ba4-c5fa2812a608")
-		(property "Reference" "R18"
-			(at 156.21 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_00001"
-			(at 156.21 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 156.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0Ω resistor"
-			(at 156.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Desc" "0Ω"
-			(at 156.21 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPNs" ""
-			(at 156.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PNs" ""
-			(at 156.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01852fa9-1587-4d8f-985d-5e51a17fc0fa")
-		)
-		(pin "1"
-			(uuid "a6c26a40-d295-4f1f-9118-1fa8c4588caf")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/549bd3f0-5402-4113-b11d-8a88b4fc0730"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -6625,71 +6197,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bec8ecad-fee9-470a-92df-b1a7d4d544c1")
-		(property "Reference" "#PWR043"
-			(at 161.29 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ebe8cb0-ec74-4155-ac9b-78af9d500f23")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/549bd3f0-5402-4113-b11d-8a88b4fc0730"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 105.41 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7254,104 +6761,6 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/549bd3f0-5402-4113-b11d-8a88b4fc0730"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_00001_1")
-		(lib_id "mic_patch_parts:R_00001")
-		(at 148.59 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6df8166-a190-4089-8f28-95e801d71073")
-		(property "Reference" "R17"
-			(at 151.13 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_00001"
-			(at 151.13 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 148.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0Ω resistor"
-			(at 148.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Desc" "0Ω"
-			(at 151.13 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPNs" ""
-			(at 148.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PNs" "C17477"
-			(at 148.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e99acde1-020f-4c17-8c0f-fda346ee014f")
-		)
-		(pin "1"
-			(uuid "69e55cc3-bd83-40bb-83e3-eb776c8e8899")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/549bd3f0-5402-4113-b11d-8a88b4fc0730"
-					(reference "R17")
 					(unit 1)
 				)
 			)

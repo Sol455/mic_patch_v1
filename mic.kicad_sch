@@ -1582,9 +1582,9 @@
 		)
 		(uuid "f6015b86-21c9-4aeb-be7c-4ba450920869")
 	)
-	(text "Could get rid of this?\n"
+	(text "Can add a 100 ohm resistor here\n"
 		(exclude_from_sim no)
-		(at 54.356 82.55 0)
+		(at 130.556 79.502 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1907,7 +1907,7 @@
 		(dnp no)
 		(uuid "7ebc3c71-810f-4a00-b439-204bfa506a99")
 		(property "Reference" "JP1"
-			(at 142.24 112.776 0)
+			(at 133.096 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +1915,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 142.24 115.316 0)
+			(at 137.922 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

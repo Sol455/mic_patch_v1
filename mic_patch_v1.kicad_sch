@@ -119,44 +119,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 199.39 59.69)
-		(size 38.1 31.75)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "800536da-ce80-4a29-90e4-a5031f507197")
-		(property "Sheetname" "SD_card"
-			(at 199.39 58.9784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sd_card.kicad_sch"
-			(at 199.39 92.0246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb"
-					(page "5")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

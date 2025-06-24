@@ -3044,22 +3044,10 @@
 		(uuid "7c460a3e-6cd6-4b81-b8b7-d290d82b810b")
 	)
 	(junction
-		(at 124.46 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f06b082-3247-47ff-b989-ccc66c4811c5")
-	)
-	(junction
 		(at 129.54 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4370c39-7c90-4049-9150-f39bf9ef0a9f")
-	)
-	(junction
-		(at 77.47 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9a715a1-4d80-4634-9675-dc5b38140209")
 	)
 	(junction
 		(at 132.08 92.71)
@@ -3135,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 67.31) (xy 80.01 67.31)
+			(xy 62.23 67.31) (xy 80.01 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3172,16 +3160,6 @@
 			(type default)
 		)
 		(uuid "16749d13-08a3-4a94-a8d1-d431c3f748f0")
-	)
-	(wire
-		(pts
-			(xy 124.46 54.61) (xy 129.54 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "170081ae-d7eb-4e78-9d07-0f2802a70e80")
 	)
 	(wire
 		(pts
@@ -3355,16 +3333,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 67.31) (xy 77.47 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48147a6b-7200-4dd3-96da-f70c60567869")
-	)
-	(wire
-		(pts
 			(xy 50.8 110.49) (xy 82.55 110.49)
 		)
 		(stroke
@@ -3425,7 +3393,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 54.61) (xy 124.46 54.61)
+			(xy 105.41 54.61) (xy 129.54 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5513,72 +5481,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64589198-2d79-4002-b1ff-1730007f921e")
-		(property "Reference" "TP4"
-			(at 122.682 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint VBUS"
-			(at 119.126 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 129.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 124.46 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7d439f6-680e-442c-a687-2215515322bb")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/549bd3f0-5402-4113-b11d-8a88b4fc0730"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mic_patch_parts:R_00002")
 		(at 50.8 115.57 180)
 		(unit 1)
@@ -6124,72 +6026,6 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/549bd3f0-5402-4113-b11d-8a88b4fc0730"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 77.47 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be20d9b7-b8d6-4896-80db-16a844f9c42e")
-		(property "Reference" "TP3"
-			(at 75.692 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint VBAT"
-			(at 72.136 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 82.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 77.47 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "756d251f-142d-4a8b-b10e-4e1719bbf8a8")
-		)
-		(instances
-			(project "mic_patch_v1"
-				(path "/5448a297-4261-40a5-8009-47199bfe22cb/549bd3f0-5402-4113-b11d-8a88b4fc0730"
-					(reference "TP3")
 					(unit 1)
 				)
 			)

@@ -1087,6 +1087,155 @@
 				)
 			)
 		)
+		(symbol "mic_patch_parts:R_00005"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_00005"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100Ω resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Desc" "100Ω "
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "MPNs" "0402WGF1000TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PNs" "C25076"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100Ω resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_00005_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_00005_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers hide)
@@ -1305,6 +1454,12 @@
 		)
 	)
 	(junction
+		(at 151.13 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e464be9-a037-4137-8805-0120d82553c4")
+	)
+	(junction
 		(at 109.22 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1323,12 +1478,6 @@
 		(uuid "60d6e5c5-3be1-48d8-9439-4cd868294507")
 	)
 	(junction
-		(at 151.13 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73eb18c6-7ffc-490f-a4e4-959a43db06fa")
-	)
-	(junction
 		(at 80.01 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1339,6 +1488,26 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad3fe3cf-05f2-4f6f-a0bf-4aed30bb3d5e")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.36) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d00027-2db0-4bd7-ba98-03aa24162857")
+	)
+	(wire
+		(pts
+			(xy 119.38 86.36) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27fa7ed3-2d98-46a9-8075-9ff60af5d7bd")
 	)
 	(wire
 		(pts
@@ -1552,16 +1721,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 86.36) (xy 151.13 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e944ad26-cad2-4060-a792-f7aa5390f2ff")
-	)
-	(wire
-		(pts
 			(xy 109.22 74.93) (xy 109.22 81.28)
 		)
 		(stroke
@@ -1590,9 +1749,9 @@
 		)
 		(uuid "f6015b86-21c9-4aeb-be7c-4ba450920869")
 	)
-	(text "Can add a 100 ohm resistor here\n"
+	(text "\nPlace Near Mic"
 		(exclude_from_sim no)
-		(at 130.556 79.502 0)
+		(at 130.81 75.692 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1909,6 +2068,100 @@
 			(project "mic_patch_v1"
 				(path "/5448a297-4261-40a5-8009-47199bfe22cb/134a282e-9ca3-4100-8ce3-f798951ef007"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mic_patch_parts:R_00005")
+		(at 133.35 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "691debec-a65e-4938-b0a7-637d075c8fd9")
+		(property "Reference" "R1"
+			(at 133.35 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_00005"
+			(at 133.35 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100Ω resistor"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" "100Ω "
+			(at 133.35 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPNs" "0402WGF1000TCE"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PNs" "C25076"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24584a1a-26b2-4d97-9a29-4efb434a21e2")
+		)
+		(pin "2"
+			(uuid "19adaede-828a-4975-927e-82f03545055f")
+		)
+		(instances
+			(project "mic_patch_v1"
+				(path "/5448a297-4261-40a5-8009-47199bfe22cb/134a282e-9ca3-4100-8ce3-f798951ef007"
+					(reference "R1")
 					(unit 1)
 				)
 			)

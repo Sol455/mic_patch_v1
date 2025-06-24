@@ -781,7 +781,7 @@
 				)
 			)
 		)
-		(symbol "mic_patch_parts:J_00003"
+		(symbol "mic_patch_parts:J_000001"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -793,7 +793,7 @@
 					)
 				)
 			)
-			(property "Value" "J_000003"
+			(property "Value" "J_000001"
 				(at 8.382 4.572 0)
 				(effects
 					(font
@@ -801,7 +801,7 @@
 					)
 				)
 			)
-			(property "Footprint" "mic_patch_parts:J_00003"
+			(property "Footprint" "mic_patch_parts:J_000001"
 				(at 6.604 -8.128 0)
 				(effects
 					(font
@@ -819,7 +819,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "JST SH 2 Pin Straight Connector"
+			(property "Description" "JST SH 2 Right Angled Pin Connector"
 				(at 2.794 11.176 0)
 				(effects
 					(font
@@ -836,7 +836,7 @@
 					)
 				)
 			)
-			(property "LCSC PNs" "C7430451"
+			(property "LCSC PNs" "C160402"
 				(at 1.524 -1.778 0)
 				(effects
 					(font
@@ -845,7 +845,15 @@
 					(hide yes)
 				)
 			)
-			(symbol "J_00003_1_1"
+			(property "MPNs" "SM02B-SRSS-TB(LF)(SN) "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "J_000001_1_1"
 				(polyline
 					(pts
 						(xy 2.54 2.54) (xy 2.9464 2.54)
@@ -1810,7 +1818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mic_patch_parts:J_00003")
+		(lib_id "mic_patch_parts:J_000001")
 		(at 152.4 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1820,7 +1828,7 @@
 		(fields_autoplaced yes)
 		(uuid "33bde55d-8b6d-4496-b6b9-f40d1132bb52")
 		(property "Reference" "J5"
-			(at 157.48 67.3099 0)
+			(at 157.48 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,8 +1836,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "J_000003"
-			(at 157.48 69.8499 0)
+		(property "Value" "J_000001"
+			(at 157.48 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mic_patch_parts:J_00003"
+		(property "Footprint" "mic_patch_parts:J_000001"
 			(at 159.004 81.788 0)
 			(effects
 				(font
@@ -1855,7 +1863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "JST SH 2 Pin Straight Connector"
+		(property "Description" "JST SH 2 Right Angled Pin Connector"
 			(at 155.194 62.484 0)
 			(effects
 				(font
@@ -1865,7 +1873,7 @@
 			)
 		)
 		(property "Desc" "JST SH"
-			(at 157.48 72.3899 0)
+			(at 157.48 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,13 +1881,22 @@
 				(justify left)
 			)
 		)
-		(property "LCSC PNs" "C7430451"
+		(property "LCSC PNs" "C160402"
 			(at 153.924 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPNs" "SM02B-SRSS-TB(LF)(SN) "
+			(at 157.48 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
